@@ -32,7 +32,8 @@ export const Partners = () => {
     speed: 600,
     slidesToShow: 6,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
     arrows: false,
     responsive: [
       { breakpoint: 1536, settings: { slidesToShow: 5 } },
@@ -81,11 +82,11 @@ export const Partners = () => {
           <Slider ref={sliderRef} {...settings} className="partner-slider -mx-[10px]">
             {partners.map((partner, index) => (
               <div key={`${partner.name}-${index}`} className="px-[10px]">
-                <div className="bg-white border border-[#dce0e3] rounded-full h-[160px] lg:h-[180px] flex items-center justify-center overflow-hidden hover:border-[#ceae5a]/30 transition-all duration-400">
+                <div className="bg-white border border-[#dce0e3] rounded-full h-[80px] sm:h-[90px] lg:h-[100px] flex items-center justify-center overflow-hidden hover:border-[#ceae5a]/30 transition-all duration-400">
                   <img
                     src={partner.logo}
                     alt={partner.name}
-                    className="max-h-[100px] lg:max-h-[120px] max-w-[170px] lg:max-w-[200px] object-contain"
+                    className="max-h-[45px] sm:max-h-[50px] lg:max-h-[60px] max-w-[100px] lg:max-w-[120px] object-contain"
                   />
                 </div>
               </div>
