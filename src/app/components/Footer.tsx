@@ -21,7 +21,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-[36px] lg:gap-8 mb-[64px]">
           
           {/* Column 1: Logo */}
-          <div className="flex flex-col">
+          <div className="flex flex-col gap-4">
             <div className="w-[72px] h-[78px] sm:w-[80px] sm:h-[87px]">
               <svg className="w-full h-full" viewBox="0 0 137 149" fill="none">
                 <path d={svgPaths.p3a6d6532} fill="#CEAE5A" />
@@ -49,6 +49,9 @@ export const Footer = () => {
                 <path d={svgPaths.p1f7e4300} fill="#CEAE5A" />
               </svg>
             </div>
+            <p className="text-white/70 font-sans text-[13px] sm:text-[14px] leading-[22px] max-w-[280px]">
+              At EDG Gold & Petroleum, we create lasting value through responsible global trade, building trust across energy and precious metals markets from the UAE to the Middle East and Africa.
+            </p>
           </div>
 
           {/* Column 2: Quick Links */}
