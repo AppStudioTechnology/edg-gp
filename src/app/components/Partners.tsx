@@ -50,8 +50,8 @@ export const Partners = () => {
           </div>
         </div>
 
-        {/* Continuous marquee - full width, no gaps */}
-        <div className="w-full overflow-hidden -mx-4 sm:-mx-6 lg:-mx-[45px]">
+        {/* Continuous marquee - inset from left and right */}
+        <div className="w-full overflow-hidden px-8 sm:px-12 lg:px-20 xl:px-32">
           <div className="partner-marquee flex w-max">
             {[...partners, ...partners, ...partners, ...partners].map((partner, index) => (
               <PartnerCard key={`${partner.name}-${index}`} partner={partner} />
