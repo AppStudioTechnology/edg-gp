@@ -17,11 +17,11 @@ export const Footer = () => {
       </div>
 
       <div className="max-w-[1440px] mx-auto relative z-10">
-        {/* Main Footer Content - flexible columns to fill space evenly */}
-        <div className="flex flex-col lg:flex-row lg:items-start gap-[36px] lg:gap-8 mb-[64px]">
+        {/* Main Footer Content - equal width columns */}
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-[36px] lg:gap-8 mb-[64px]">
           
-          {/* Column 1: Logo - reduced size */}
-          <div className="shrink-0">
+          {/* Column 1: Logo */}
+          <div className="flex flex-col">
             <div className="w-[72px] h-[78px] sm:w-[80px] sm:h-[87px]">
               <svg className="w-full h-full" viewBox="0 0 137 149" fill="none">
                 <path d={svgPaths.p3a6d6532} fill="#CEAE5A" />
@@ -52,7 +52,7 @@ export const Footer = () => {
           </div>
 
           {/* Column 2: Quick Links */}
-          <div className="flex flex-col gap-[20px] w-full lg:flex-1 lg:min-w-[160px] lg:max-w-[220px]">
+          <div className="flex flex-col gap-[20px]">
             <h4 className="text-[13px] font-semibold text-white/90 tracking-[0.2em] uppercase font-sans">Quick Links</h4>
             <div className="flex flex-col gap-[10px] text-white/70 font-sans text-[14px] font-medium leading-[22px]">
               <Link to="/" className="hover:text-[#CEAE5A] transition-colors duration-300 whitespace-nowrap">Home</Link>
@@ -63,7 +63,7 @@ export const Footer = () => {
           </div>
 
           {/* Column 3: Contact Info */}
-          <div className="flex flex-col gap-[20px] w-full lg:flex-1 lg:min-w-[240px]">
+          <div className="flex flex-col gap-[20px]">
             <h4 className="text-[13px] font-semibold text-white/90 tracking-[0.2em] uppercase font-sans">Contact Info</h4>
             <div className="flex flex-col gap-[12px] text-white/70 font-sans text-[14px] leading-[26px]">
               <p>DMCC Business Centre, Level No 1 Jewellery & Gemplex 3, Dubai - UAE</p>
@@ -92,7 +92,7 @@ export const Footer = () => {
           </div>
 
           {/* Column 4: Stay Tuned */}
-          <div className="flex flex-col gap-[24px] w-full lg:flex-1 lg:min-w-[220px] lg:max-w-[300px]">
+          <div className="flex flex-col gap-[24px]">
             <h4 className="text-[13px] font-semibold text-white/90 tracking-[0.2em] uppercase font-sans">Stay tuned for more updates</h4>
             <div className="flex flex-col gap-3">
               <div className="flex items-center justify-between gap-2 border-b border-white/40 pb-2.5">
