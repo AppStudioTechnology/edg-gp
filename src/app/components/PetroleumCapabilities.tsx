@@ -6,22 +6,22 @@ const capabilities = [
   {
     title: "Spot and Term Contracts:",
     desc: "Flexible trading agreements tailored to client needs— whether securing immediate supply or establishing long-term stability in pricing and delivery.",
-    icon: <FileText className="size-12" strokeWidth={1.5} />
+    icon: <FileText className="size-8" strokeWidth={1.5} />
   },
   {
     title: "Bulk Storage & Tank Leasing Solutions:",
     desc: "Access to large- scale, strategically located storage facilities that ensure continuous product availability and safeguard against market disruptions.",
-    icon: <Database className="size-12" strokeWidth={1.5} />
+    icon: <Database className="size-8" strokeWidth={1.5} />
   },
   {
     title: "Strategic Partnerships with Refineries & Trading Houses:",
     desc: "Strong alliances that give clients preferential access to refined products, competitive pricing, and enhanced supply security.",
-    icon: <Share2 className="size-12" strokeWidth={1.5} />
+    icon: <Share2 className="size-8" strokeWidth={1.5} />
   },
   {
     title: "Regulatory & Customs Clearance Support:",
     desc: "Comprehensive handling of documentation and compliance, reducing administrative burdens and ensuring smooth cross-border transactions.",
-    icon: <ClipboardCheck className="size-12" strokeWidth={1.5} />
+    icon: <ClipboardCheck className="size-8" strokeWidth={1.5} />
   }
 ];
 
@@ -60,7 +60,7 @@ export const PetroleumCapabilities = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-[36px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 lg:gap-6 max-w-[1200px] mx-auto">
           {capabilities.map((item, idx) => (
             <motion.div 
               key={idx}
@@ -68,19 +68,19 @@ export const PetroleumCapabilities = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.1 }}
               viewport={{ once: true }}
-              className="bg-[#f2f5fb] rounded-[8px] p-5 sm:p-[27px] flex flex-col h-auto lg:h-[428px] hover:shadow-lg transition-shadow"
+              className="bg-[#f2f5fb] rounded-[8px] p-4 sm:p-5 lg:p-6 flex flex-col min-h-0 min-w-0 hover:shadow-lg transition-shadow"
             >
-              <h3 className="font-sans font-semibold text-[16px] lg:text-[18px] text-black leading-snug">
+              <h3 className="font-sans font-semibold text-[15px] lg:text-[17px] text-black leading-snug break-words">
                 {item.title}
               </h3>
 
-              <div className="mt-6 sm:mt-[36px] flex flex-col gap-[21px]">
-                <div className="border-b border-[#b7bacb] pb-[23px]">
-                  <div className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] lg:w-[123px] lg:h-[123px] rounded-full bg-[#ceae5a] flex items-center justify-center text-white">
+              <div className="mt-4 sm:mt-5 flex flex-col gap-3 flex-1 min-h-0">
+                <div className="border-b border-[#b7bacb] pb-4">
+                  <div className="w-[52px] h-[52px] sm:w-[60px] sm:h-[60px] lg:w-[72px] lg:h-[72px] rounded-full bg-[#ceae5a] flex items-center justify-center text-white shrink-0">
                     {item.icon}
                   </div>
                 </div>
-                <p className="font-sans text-[15px] lg:text-[17px] text-[#555] leading-relaxed">
+                <p className="font-sans text-[14px] lg:text-[15px] text-[#555] leading-relaxed break-words min-w-0">
                   {item.desc}
                 </p>
               </div>
