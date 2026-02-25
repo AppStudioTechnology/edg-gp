@@ -33,15 +33,15 @@ export const PetroleumProducts = () => {
           viewport={{ once: true }}
           className="text-center mb-[60px] lg:mb-[80px] max-w-[1119px]"
         >
-          <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black mb-6 leading-[1.1] tracking-[-1px]">
+          <h2 className="font-sans font-extralight text-[24px] sm:text-[28px] lg:text-[36px] text-black mb-4 sm:mb-6 leading-[1.1] tracking-[-1px]">
             Our Products
           </h2>
-          <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
+          <p className="font-sans text-[15px] sm:text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
             Conforms to Clients country standards: Petroleum products supplies are formulated to meet the latest standards for diesel fuel, Gasoline, etc.. ensuring that it meets the highest quality and performance standards.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-[5px] w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-[5px] w-full">
           {products.map((product, idx) => (
             <motion.div 
               key={idx}

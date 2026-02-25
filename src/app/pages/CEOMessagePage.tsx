@@ -6,7 +6,7 @@ import { CTABanner } from "../components/CTABanner";
 export const CEOMessagePage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-    console.log("CEOMessagePage mounted");
+    document.title = "CEO Message – EDG Gold & Petroleum";
   }, []);
 
   return (

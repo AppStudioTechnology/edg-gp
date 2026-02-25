@@ -38,13 +38,13 @@ export const PetroleumCapabilities = () => {
           </span>
         </div>
 
-        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 mb-[92px]">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 mb-[40px] sm:mb-[60px] lg:mb-[92px]">
           <div className="flex flex-col lg:flex-row lg:items-center flex-1">
-            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px] w-full lg:w-[474px] shrink-0">
+            <h2 className="font-sans font-extralight text-[24px] sm:text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px] w-full lg:w-[474px] shrink-0">
               Capabilities- Petroleum Division
             </h2>
-            <div className="border-l-3 border-[#ceae5a] h-[108px] flex items-center pl-[35px] mt-6 lg:mt-0">
-              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] max-w-[840px] leading-relaxed">
+            <div className="border-l-3 border-[#ceae5a] h-auto lg:h-[108px] flex items-center pl-6 lg:pl-[35px] mt-6 lg:mt-0">
+              <p className="font-sans text-[15px] sm:text-[17px] lg:text-[19px] text-[#555] max-w-[840px] leading-relaxed">
                 At EDG Gold & Petroleum, our petroleum division is designed to deliver efficiency, reliability, and value across every stage of the supply chain. We don't just trade products—we provide strategic solutions that empower our clients to operate with confidence in volatile markets.
               </p>
             </div>
@@ -60,7 +60,7 @@ export const PetroleumCapabilities = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[36px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-[36px]">
           {capabilities.map((item, idx) => (
             <motion.div 
               key={idx}
@@ -68,15 +68,15 @@ export const PetroleumCapabilities = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: idx * 0.1 }}
               viewport={{ once: true }}
-              className="bg-[#f2f5fb] rounded-[8px] p-[27px] flex flex-col h-auto lg:h-[428px] hover:shadow-lg transition-shadow"
+              className="bg-[#f2f5fb] rounded-[8px] p-5 sm:p-[27px] flex flex-col h-auto lg:h-[428px] hover:shadow-lg transition-shadow"
             >
               <h3 className="font-sans font-semibold text-[16px] lg:text-[18px] text-black leading-snug">
                 {item.title}
               </h3>
 
-              <div className="mt-[36px] flex flex-col gap-[21px]">
+              <div className="mt-6 sm:mt-[36px] flex flex-col gap-[21px]">
                 <div className="border-b border-[#b7bacb] pb-[23px]">
-                  <div className="w-[100px] h-[100px] lg:w-[123px] lg:h-[123px] rounded-full bg-[#ceae5a] flex items-center justify-center text-white">
+                  <div className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] lg:w-[123px] lg:h-[123px] rounded-full bg-[#ceae5a] flex items-center justify-center text-white">
                     {item.icon}
                   </div>
                 </div>

@@ -3,18 +3,18 @@ import { motion } from "motion/react";
 
 export const ContactFormSection = () => {
   return (
-    <section className="py-[56px] lg:py-[72px] px-4 sm:px-6 md:px-[80px] bg-white relative overflow-hidden">
+    <section className="py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[80px] bg-white relative overflow-hidden">
       {/* Background World Map Graphic would go here if asset was available as a standalone SVG, 
           but we'll stick to the layout structure */}
       
       <div className="max-w-[1440px] mx-auto">
         {/* Header Label */}
-        <div className="flex justify-between items-center border-b border-[#DCE0E3] pb-4 mb-16 font-sans text-[13px] tracking-[0.2em] uppercase text-[#8C8C8C]">
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-[#DCE0E3] pb-4 mb-10 lg:mb-16 font-sans text-[11px] sm:text-[13px] tracking-[0.2em] uppercase text-[#8C8C8C] gap-2">
           <span>Let's Talk About Next Adventure</span>
           <span>[ GET IN TOUCH ]</span>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
           {/* Left Side: Contact Info */}
           <div className="lg:col-span-5 flex flex-col gap-16">
             <motion.h2 
@@ -30,13 +30,13 @@ export const ContactFormSection = () => {
               {/* Addresses */}
               <div className="flex flex-col gap-4">
                 <span className="text-[#8C8C8C] text-[16px] font-sans">Visit us</span>
-                <p className="text-black text-[19px] font-sans leading-[1.5]">
+                <p className="text-black text-[16px] sm:text-[19px] font-sans leading-[1.5]">
                   DMCC Business Centre, Level No 1 Jewellery & Gemplex 3, Dubai - UAE
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <span className="text-[#8C8C8C] text-[16px] font-sans">Visit us</span>
-                <p className="text-black text-[19px] font-sans leading-[1.5]">
+                <p className="text-black text-[16px] sm:text-[19px] font-sans leading-[1.5]">
                   Prism Tower, Business Bay,<br />Office 3006, Dubai, UAE
                 </p>
               </div>
@@ -44,7 +44,7 @@ export const ContactFormSection = () => {
               {/* Contact details */}
               <div className="flex flex-col gap-4">
                 <span className="text-[#8C8C8C] text-[16px] font-sans">How can we help?</span>
-                <div className="text-black text-[19px] font-sans flex flex-col gap-1">
+                <div className="text-black text-[16px] sm:text-[19px] font-sans flex flex-col gap-1">
                   <p>Phone: (+971) 45548286</p>
                   <p>Mobile: (+971) 503541413</p>
                   <p>Fax: (+971) 503541413</p>
@@ -52,7 +52,7 @@ export const ContactFormSection = () => {
               </div>
               <div className="flex flex-col gap-4">
                 <span className="text-[#8C8C8C] text-[16px] font-sans">Email us</span>
-                <p className="text-black text-[19px] font-sans">
+                <p className="text-black text-[16px] sm:text-[19px] font-sans">
                   info@edg-gp.com
                 </p>
               </div>
@@ -65,7 +65,7 @@ export const ContactFormSection = () => {
               initial={{ opacity: 0, scale: 0.98 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              className="bg-[#FAFAFA] p-8 md:p-[60px] rounded-[10px]"
+              className="bg-[#FAFAFA] p-6 sm:p-8 lg:p-[60px] rounded-[10px]"
             >
               <h3 className="text-black text-[22px] md:text-[28px] font-extralight font-sans mb-12 leading-[1.1] tracking-[-1px]">
                 Leave a message
@@ -76,27 +76,27 @@ export const ContactFormSection = () => {
                   <input 
                     type="text" 
                     placeholder="Full Name*" 
-                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-sans text-[18px]"
+                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-sans text-[16px] sm:text-[18px]"
                   />
                 </div>
                 <div className="border-b border-[#DCE0E3] py-4">
                   <input 
                     type="email" 
                     placeholder="Email*" 
-                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-sans text-[18px]"
+                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-sans text-[16px] sm:text-[18px]"
                   />
                 </div>
                 <div className="border-b border-[#DCE0E3] py-4">
                   <input 
                     type="tel" 
                     placeholder="Phone*" 
-                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-sans text-[18px]"
+                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-sans text-[16px] sm:text-[18px]"
                   />
                 </div>
                 <div className="border-b border-[#DCE0E3] py-4">
                   <textarea 
                     placeholder="Message" 
-                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-sans text-[18px] min-h-[120px] resize-none"
+                    className="w-full bg-transparent outline-none text-black placeholder:text-[#555] font-sans text-[16px] sm:text-[18px] min-h-[120px] resize-none"
                   />
                 </div>
                 

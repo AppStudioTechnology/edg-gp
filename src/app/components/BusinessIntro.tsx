@@ -52,7 +52,7 @@ export const BusinessIntro = () => {
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="font-sans font-semibold text-[17px] lg:text-[19px] text-[#1a1a1a] leading-[1.45] tracking-tight"
+            className="font-sans font-semibold text-[15px] sm:text-[17px] lg:text-[19px] text-[#1a1a1a] leading-[1.45] tracking-tight"
           >
             Our operations are powered by a diverse and highly skilled team spanning multiple geographies, operating with the same standard of precision and professionalism across all markets.
           </motion.p>
@@ -76,7 +76,7 @@ export const BusinessIntro = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <p className="font-sans font-semibold text-[17px] lg:text-[19px] text-[#1a1a1a] leading-[1.5] tracking-tight mb-6">
+            <p className="font-sans font-semibold text-[15px] sm:text-[17px] lg:text-[19px] text-[#1a1a1a] leading-[1.5] tracking-tight mb-6">
               EDG Gold & Petroleum is a truly global enterprise with a strong presence in multiple GCC states, African nations, and Asian markets. We specialize in:
             </p>
             <ul className="flex flex-col gap-3">
@@ -90,7 +90,7 @@ export const BusinessIntro = () => {
                   className="flex items-start gap-3"
                 >
                   <span className="w-2 h-2 rounded-full bg-[#CEAE5A] mt-2 shrink-0" />
-                  <span className="font-sans text-[15px] lg:text-[17px] text-[#333] leading-[1.55]">
+                  <span className="font-sans text-[14px] sm:text-[15px] lg:text-[17px] text-[#333] leading-[1.55]">
                     {item}
                   </span>
                 </motion.li>

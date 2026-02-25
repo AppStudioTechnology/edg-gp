@@ -9,6 +9,7 @@ import { CTABanner } from "../components/CTABanner";
 export const OperationsPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Operations & Market Presence – EDG Gold & Petroleum";
   }, []);
 
   return (

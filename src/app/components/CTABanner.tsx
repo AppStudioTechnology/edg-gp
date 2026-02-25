@@ -14,7 +14,7 @@ export const CTABanner = ({
   badge = "YOUR GLOBAL TRADING PARTNER"
 }: CTABannerProps) => {
   return (
-    <section className="relative py-[80px] lg:py-[96px] px-8 md:px-[80px] overflow-hidden">
+    <section className="relative py-[60px] sm:py-[80px] lg:py-[96px] px-4 sm:px-8 lg:px-[80px] overflow-hidden">
       {/* Background Image with Dark Overlay */}
       <div className="absolute inset-0 z-0">
         <img

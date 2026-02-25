@@ -18,7 +18,7 @@ export const Footer = () => {
 
       <div className="max-w-[1440px] mx-auto relative z-10">
         {/* Main Footer Content - equal width columns */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-[36px] lg:gap-8 mb-[64px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[36px] lg:gap-8 mb-[64px]">
           
           {/* Column 1: Logo */}
           <div className="flex flex-col gap-4">
@@ -125,8 +125,8 @@ export const Footer = () => {
         </div>
 
         {/* Footer Bottom Bar */}
-        <div className="pt-5 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-6">
-          <div className="flex flex-wrap items-center justify-center md:justify-start gap-1.5 text-[13px] sm:text-[14px] text-white/80 font-normal text-center md:text-left tracking-tight">
+        <div className="pt-5 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-6">
+          <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1.5 text-[13px] sm:text-[14px] text-white/80 font-normal text-center sm:text-left tracking-tight">
             <span>© 2025</span>
             <span className="text-[#CEAE5A]">edg-gp.com</span>
             <span>. All Rights Reserved.</span>

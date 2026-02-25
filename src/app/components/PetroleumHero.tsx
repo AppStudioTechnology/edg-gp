@@ -29,7 +29,7 @@ export const PetroleumHero = () => {
             </span>
           </div>
           
-          <h1 className="font-sans font-extralight text-[36px] sm:text-[44px] md:text-[52px] lg:text-[60px] text-white leading-[1.05] tracking-[-1.2px] mb-6">
+          <h1 className="font-sans font-extralight text-[28px] sm:text-[36px] md:text-[48px] lg:text-[60px] text-white leading-[1.1] tracking-[-1.2px] mb-4 sm:mb-6">
             Driving Energy Forward with Precision and Integrity
           </h1>
           

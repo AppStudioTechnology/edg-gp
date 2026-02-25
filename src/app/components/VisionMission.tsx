@@ -5,7 +5,7 @@ import imgVisionMission from "@/assets/e82cf92c9617fe67354327de7e9e517a2e5bc58a.
 
 export const VisionMission = () => {
   return (
-    <section className="relative h-auto lg:h-[560px] flex flex-col items-center justify-end overflow-hidden rounded-[10px] mx-2 sm:mx-4 lg:mx-[45px]">
+    <section className="relative min-h-[400px] sm:min-h-[480px] lg:h-[560px] flex flex-col items-center justify-end overflow-hidden rounded-[10px] mx-2 sm:mx-4 lg:mx-[45px]">
       <div className="absolute inset-0 z-0">
         <motion.div
           initial={{ scale: 1.05 }}
@@ -16,7 +16,7 @@ export const VisionMission = () => {
           <img
             src={imgVisionMission}
             alt="Industrial excellence"
-            className="absolute max-w-none h-[169%] left-0 top-[-66%] w-full object-cover"
+            className="absolute max-w-none w-full h-full object-cover lg:h-[169%] lg:top-[-66%]"
           />
         </motion.div>
         <div className="absolute inset-0 bg-black/55" />
@@ -26,7 +26,7 @@ export const VisionMission = () => {
         />
       </div>
 
-      <div className="relative z-10 w-full flex flex-col lg:flex-row lg:items-stretch gap-1 lg:pl-[30%] xl:pl-[24%] pb-0">
+      <div className="relative z-10 w-full flex flex-col lg:flex-row lg:items-stretch gap-1 px-2 sm:px-0 lg:pl-[30%] xl:pl-[24%] pb-0">
         {/* Vision Card */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -48,7 +48,7 @@ export const VisionMission = () => {
               Vision
             </span>
           </div>
-          <p className="text-[#f3f3f3] text-[14px] lg:text-[15px] leading-[22px] font-normal font-sans lg:min-h-[200px]">
+          <p className="text-[#f3f3f3] text-[13px] sm:text-[14px] lg:text-[15px] leading-[20px] sm:leading-[22px] font-normal font-sans lg:min-h-[200px]">
             To become the first-choice partner for investors in the energy and precious metals sectors. Our long-term goal is to expand strategic corridors, lead in ethical sourcing, and enable access to essential commodities, especially across high-growth regions in the Middle East and Africa.
           </p>
         </motion.div>
@@ -73,7 +73,7 @@ export const VisionMission = () => {
               Mission
             </span>
           </div>
-          <p className="text-[#f3f3f3] text-[14px] lg:text-[15px] leading-[22px] font-normal font-sans lg:min-h-[200px]">
+          <p className="text-[#f3f3f3] text-[13px] sm:text-[14px] lg:text-[15px] leading-[20px] sm:leading-[22px] font-normal font-sans lg:min-h-[200px]">
             To support the energy and precious metals sectors through an integrated business model that enhances sustainability, advances infrastructure, and maximizes value for every EDG partner—through strategic, intelligent solutions that deliver long-term growth and impact. We are driven by our dedication to operational efficiency, responsible sourcing, and long-term partnerships that empower global supply chains and energy access.
           </p>
         </motion.div>

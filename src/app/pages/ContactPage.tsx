@@ -7,6 +7,7 @@ import { CTABanner } from "../components/CTABanner";
 export const ContactPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Contact Us – EDG Gold & Petroleum";
   }, []);
 
   return (

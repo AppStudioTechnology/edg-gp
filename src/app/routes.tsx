@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { createHashRouter } from "react-router";
 import { Layout } from "./components/Layout";
 import { Hero } from "./components/Hero";
@@ -17,30 +17,36 @@ import { GoldTradingPage } from "./pages/GoldTradingPage";
 import { OperationsPage } from "./pages/OperationsPage";
 import { ContactPage } from "./pages/ContactPage";
 
-const HomePage = () => (
-  <main>
-    <div id="home">
-      <Hero />
-    </div>
-    <div id="stats">
-      <Stats />
-    </div>
-    <div id="about-us">
-      <VisionMission />
-      <ChairmanMessage />
-    </div>
-    <div id="services" className="relative overflow-hidden bg-black">
-      <EnergyDivision />
-      <GoldTrading />
-    </div>
-    <div id="partners">
-      <OurClients />
-    </div>
-    <div id="operations">
-      <StrategicRegions />
-    </div>
-  </main>
-);
+const HomePage = () => {
+  useEffect(() => {
+    document.title = "EDG Gold & Petroleum – Bridging Markets, Fueling Prosperity";
+  }, []);
+
+  return (
+    <main>
+      <div id="home">
+        <Hero />
+      </div>
+      <div id="stats">
+        <Stats />
+      </div>
+      <div id="about-us">
+        <VisionMission />
+        <ChairmanMessage />
+      </div>
+      <div id="services" className="relative overflow-hidden bg-black">
+        <EnergyDivision />
+        <GoldTrading />
+      </div>
+      <div id="partners">
+        <OurClients />
+      </div>
+      <div id="operations">
+        <StrategicRegions />
+      </div>
+    </main>
+  );
+};
 
 export const router = createHashRouter([
   {

@@ -37,12 +37,12 @@ export const ChairmanMessage = () => {
           </div>
 
           {/* Bold introductory statement */}
-          <p className="text-black text-[18px] md:text-[20px] lg:text-[22px] font-bold leading-[1.5] font-sans">
+          <p className="text-black text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-bold leading-[1.5] font-sans">
             At EDG Gold &amp; Petroleum, our journey has always been guided by a singular purpose: to create lasting value through responsible global trade. From the heart of the UAE to emerging and established markets across the Middle East and Africa, our company has evolved into a trusted name in energy and precious metals trading.
           </p>
 
           {/* Body paragraphs */}
-          <div className="text-[#555] text-[16px] lg:text-[18px] leading-[1.75] font-normal font-sans space-y-6">
+          <div className="text-[#555] text-[15px] sm:text-[16px] lg:text-[18px] leading-[1.75] font-normal font-sans space-y-6">
             <p>
               In a world where access to reliable energy and ethically sourced resources defines both economic growth and social stability, our role has never been more critical. We take pride in being at the intersection of opportunity and responsibility—delivering high-quality oil, gas, and gold products to clients who rely on our consistency, transparency, and market insight.
             </p>

@@ -31,11 +31,11 @@ export const PetroleumPortfolio = () => {
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-[56px]">
           <div className="flex flex-col lg:flex-row lg:items-center">
-            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px] w-full lg:w-[710px] shrink-0">
+            <h2 className="font-sans font-extralight text-[24px] sm:text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px] w-full lg:w-[710px] shrink-0">
               Petroleum Products Portfolio
             </h2>
-            <div className="border-l-3 border-[#ceae5a] pl-[44px] flex items-center mt-6 lg:mt-0">
-              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] max-w-[776px] leading-relaxed">
+            <div className="border-l-3 border-[#ceae5a] pl-6 sm:pl-[44px] flex items-center mt-6 lg:mt-0">
+              <p className="font-sans text-[15px] sm:text-[17px] lg:text-[19px] text-[#555] max-w-[776px] leading-relaxed">
                 At EDG Gold & Petroleum, we offer a comprehensive portfolio of petroleum products—designed to meet the diverse needs of governments, enterprises, and industrial clients. Each product is sourced, refined, and delivered with strict adherence to international quality standards and operational efficiency.
               </p>
             </div>
@@ -54,7 +54,7 @@ export const PetroleumPortfolio = () => {
         {/* Content Box */}
         <div className="relative h-auto min-h-[400px] lg:h-[740px] rounded-[10px] overflow-hidden flex flex-col lg:flex-row">
           {/* Left Content (Blue Box) */}
-          <div className="w-full lg:w-[71%] bg-[#000435] pt-[51px] pb-[100px] px-6 sm:px-8 lg:px-[60px] flex flex-col justify-center relative z-10">
+          <div className="w-full lg:w-[71%] bg-[#000435] pt-[32px] sm:pt-[51px] pb-[48px] sm:pb-[100px] px-4 sm:px-8 lg:px-[60px] flex flex-col justify-center relative z-10">
             <div className="flex items-center justify-between mb-[26px]">
               <h3 className="font-sans font-semibold text-[20px] lg:text-[22px] text-white leading-tight">
                 Light Distillates
@@ -62,7 +62,7 @@ export const PetroleumPortfolio = () => {
               <span className="text-[#ceae5a] opacity-30 font-bold text-[48px] sm:text-[64px] lg:text-[100px] leading-none">01</span>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-y-[33px] gap-x-[135px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-y-[24px] sm:gap-y-[33px] gap-x-8 sm:gap-x-[60px] lg:gap-x-[135px]">
               {portfolioItems.map((item, idx) => (
                 <div key={idx} className="flex flex-col gap-2">
                   <h4 className="font-sans font-semibold text-[16px] lg:text-[18px] text-[#ceae5a] leading-snug">

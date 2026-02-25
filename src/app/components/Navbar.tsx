@@ -251,19 +251,19 @@ export const Navbar = () => {
       <AnimatePresence>
         {isMobileOpen && (
           <motion.nav
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.2 }}
-            className="lg:hidden border-t border-white/10 bg-[#080808]/98 backdrop-blur-sm"
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.3 }}
+            className="lg:hidden border-t border-white/10 bg-[#080808]/98 backdrop-blur-sm overflow-hidden"
           >
-            <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-4 flex flex-col gap-4">
+            <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-6 flex flex-col gap-1">
               {navItems.map((item) => (
-                <div key={item.name} className="flex flex-col gap-2">
+                <div key={item.name} className="flex flex-col">
                   <Link
                     to={item.path}
                     onClick={closeMobileMenu}
-                    className={`font-sans font-medium text-[14px] tracking-wide ${
+                    className={`font-sans font-medium text-[16px] py-3 tracking-wide border-b border-white/5 ${
                       location.pathname === item.path ||
                       (item.name === "About Us" && location.pathname.startsWith("/about")) ||
                       (item.name === "Business Sectors" && location.pathname.startsWith("/services"))
@@ -274,13 +274,13 @@ export const Navbar = () => {
                     {item.name}
                   </Link>
                   {item.dropdown && (
-                    <div className="ml-3 flex flex-col gap-1">
+                    <div className="ml-4 flex flex-col">
                       {item.dropdown.map((subItem) => (
                         <Link
                           key={subItem.name}
                           to={subItem.path}
                           onClick={closeMobileMenu}
-                          className={`font-sans text-[13px] ${
+                          className={`font-sans text-[15px] py-2.5 border-b border-white/5 ${
                             location.pathname === subItem.path
                               ? "text-[#CEAE5A]"
                               : "text-white/60"
@@ -294,9 +294,20 @@ export const Navbar = () => {
                 </div>
               ))}
 
-              {/* Mobile contact button */}
-              <Link to="/contact" onClick={closeMobileMenu} className="mt-2">
-                <button className="w-full bg-[#A98C49] text-white py-[12px] px-[28px] rounded-[12px] font-sans font-medium text-[14px] text-center capitalize flex items-center justify-center hover:bg-[#967a3f] transition-all active:scale-95">
+              {/* Mobile contact info */}
+              <div className="flex flex-col gap-3 mt-4 pt-4 border-t border-white/10">
+                <a href="tel:+97145548286" className="font-sans text-[14px] text-white/70">
+                  <span className="text-[#8a8a8a]">Call us: </span>
+                  <span className="text-white">(+971) 45548286</span>
+                </a>
+                <a href="mailto:info@edg-gp.com" className="font-sans text-[14px] text-white/70">
+                  <span className="text-[#8a8a8a]">Email: </span>
+                  <span className="text-white">info@edg-gp.com</span>
+                </a>
+              </div>
+
+              <Link to="/contact" onClick={closeMobileMenu} className="mt-4">
+                <button className="w-full bg-[#A98C49] text-white py-[14px] px-[28px] rounded-[12px] font-sans font-medium text-[15px] text-center capitalize flex items-center justify-center hover:bg-[#967a3f] transition-all active:scale-95">
                   Contact us
                 </button>
               </Link>

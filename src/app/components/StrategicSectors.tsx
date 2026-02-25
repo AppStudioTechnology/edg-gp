@@ -42,7 +42,6 @@ export const StrategicSectors = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className="relative lg:absolute lg:right-0 lg:bottom-0 bg-white rounded-tl-[10px] lg:w-[45%] xl:w-[42%] p-6 sm:p-8 lg:px-[50px] lg:py-[40px]"
-            style={{ height: "0%" }}
           >
             <div className="flex flex-col gap-6">
               <p className="font-sans text-[15px] lg:text-[16px] text-[#555] leading-[1.65] tracking-[-0.18px]">

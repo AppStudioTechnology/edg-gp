@@ -11,6 +11,7 @@ import { CTABanner } from "../components/CTABanner";
 export const PetroleumProductsPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Petroleum Products – EDG Gold & Petroleum";
   }, []);
 
   return (

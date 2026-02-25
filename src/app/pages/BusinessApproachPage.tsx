@@ -9,6 +9,7 @@ import { CTABanner } from "../components/CTABanner";
 export const BusinessApproachPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Our Business Approach – EDG Gold & Petroleum";
   }, []);
 
   return (

@@ -11,6 +11,7 @@ import { CTABanner } from "../components/CTABanner";
 export const GoldTradingPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Precious Metals & Gold Trading – EDG Gold & Petroleum";
   }, []);
 
   return (

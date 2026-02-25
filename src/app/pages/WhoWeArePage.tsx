@@ -11,6 +11,7 @@ import { CTABanner } from "../components/CTABanner";
 export const WhoWeArePage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Who We Are – EDG Gold & Petroleum";
   }, []);
 
   return (

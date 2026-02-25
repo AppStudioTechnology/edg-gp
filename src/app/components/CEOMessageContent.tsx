@@ -37,7 +37,7 @@ export const CEOMessageContent = () => {
           </div>
 
           {/* Bold introductory statement */}
-          <p className="text-black text-[18px] md:text-[20px] lg:text-[22px] font-bold leading-[1.5] font-sans">
+          <p className="text-black text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-bold leading-[1.5] font-sans">
             At EDG Gold &amp; Petroleum, our journey has always been guided by a singular purpose: to create lasting value through responsible global trade. From the heart of the UAE to emerging and established markets across the Middle East and Africa, our company has evolved into a trusted name in energy and precious metals trading.
           </p>
 

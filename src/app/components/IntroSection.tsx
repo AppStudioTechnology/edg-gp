@@ -22,7 +22,7 @@ export const IntroSection = () => {
                 className="w-full h-[220px] sm:h-[240px] lg:h-[260px] object-cover"
               />
             </div>
-            <p className="text-[#1a1a1a] font-sans text-[17px] lg:text-[19px] font-semibold leading-[1.5] tracking-tight text-left">
+            <p className="text-[#1a1a1a] font-sans text-[15px] sm:text-[17px] lg:text-[19px] font-semibold leading-[1.5] tracking-tight text-left">
               At EDG Gold & Petroleum DMCC, we are more than a commodities trading company—we are a strategic partner in powering global markets and enabling responsible growth.
             </p>
           </motion.div>
@@ -36,7 +36,7 @@ export const IntroSection = () => {
             viewport={{ once: true }}
             className="flex flex-col gap-5"
           >
-            <div className="flex flex-col gap-4 text-[#1a1a1a] text-[15px] lg:text-[17px] font-sans leading-[1.7]">
+            <div className="flex flex-col gap-4 text-[#1a1a1a] text-[14px] sm:text-[15px] lg:text-[17px] font-sans leading-[1.7]">
               <p>
                 With a focus on the ethical and efficient trading of petroleum products and precious metals, we operate across key geographies including the Middle East, Africa, and beyond. Our business model spans the full supply chain—from sourcing and transportation to storage and distribution—ensuring product availability, quality, and reliability for both public and private sectors.
               </p>
