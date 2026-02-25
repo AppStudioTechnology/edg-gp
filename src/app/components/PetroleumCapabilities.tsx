@@ -60,7 +60,7 @@ export const PetroleumCapabilities = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 lg:gap-6 max-w-[1200px] mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 lg:gap-6 w-full">
           {capabilities.map((item, idx) => (
             <motion.div 
               key={idx}
@@ -70,12 +70,12 @@ export const PetroleumCapabilities = () => {
               viewport={{ once: true }}
               className="bg-[#f2f5fb] rounded-[8px] p-4 sm:p-5 lg:p-6 flex flex-col min-h-0 min-w-0 hover:shadow-lg transition-shadow"
             >
-              <h3 className="font-sans font-semibold text-[15px] lg:text-[17px] text-black leading-snug break-words">
+              <h3 className="font-sans font-semibold text-[15px] lg:text-[17px] text-black leading-snug break-words min-h-[2.8em] flex items-start">
                 {item.title}
               </h3>
 
               <div className="mt-4 sm:mt-5 flex flex-col gap-3 flex-1 min-h-0">
-                <div className="border-b border-[#b7bacb] pb-4">
+                <div className="border-b border-[#b7bacb] pb-4 h-[72px] sm:h-[76px] lg:h-[88px] flex items-center">
                   <div className="w-[52px] h-[52px] sm:w-[60px] sm:h-[60px] lg:w-[72px] lg:h-[72px] rounded-full bg-[#ceae5a] flex items-center justify-center text-white shrink-0">
                     {item.icon}
                   </div>
