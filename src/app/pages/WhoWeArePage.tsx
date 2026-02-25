@@ -4,7 +4,7 @@ import { IntroSection } from "../components/IntroSection";
 import { Stats } from "../components/Stats";
 import { VisionMission } from "../components/VisionMission";
 import { CoreValues } from "../components/CoreValues";
-import { Partners } from "../components/Partners";
+import { OurClients } from "../components/OurClients";
 import { EnergyOpportunity } from "../components/EnergyOpportunity";
 import { CTABanner } from "../components/CTABanner";
 
@@ -20,7 +20,7 @@ export const WhoWeArePage = () => {
       <Stats />
       <VisionMission />
       <CoreValues />
-      <Partners />
+      <OurClients />
       <EnergyOpportunity />
       <CTABanner />
     </div>

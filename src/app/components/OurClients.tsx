@@ -8,7 +8,7 @@ import imgTotal from "@/assets/1f87f80505240dbe46a6b23840a9e076447e4ce8.png";
 import imgPerenco from "@/assets/0f312acfd7661746df1a946a8f08b75656c8d77a.png";
 import imgSubsea7 from "@/assets/04a38e18500a05c9338f7e479bacabfd32910efa.png";
 
-const partners = [
+const clients = [
   { name: "BP", logo: imgBp },
   { name: "Harbour Energy", logo: imgHarbour },
   { name: "Equinor", logo: imgEquinor },
@@ -19,19 +19,19 @@ const partners = [
   { name: "Total Energies", logo: imgTotal },
 ];
 
-const PartnerCard = ({ partner }: { partner: (typeof partners)[0] }) => (
+const ClientCard = ({ client }: { client: (typeof clients)[0] }) => (
   <div className="flex-shrink-0 px-2 sm:px-3">
     <div className="bg-white rounded-[10px] p-3 flex items-center justify-center aspect-[212/129] w-[140px] sm:w-[160px] lg:w-[180px] shadow-sm hover:shadow-md transition-all duration-300 group">
       <img
-        src={partner.logo}
-        alt={partner.name}
+        src={client.logo}
+        alt={client.name}
         className="max-w-[80%] max-h-[80%] object-contain"
       />
     </div>
   </div>
 );
 
-export const PetroleumClients = () => {
+export const OurClients = () => {
   return (
     <section className="bg-[#f2f5fb] py-[56px] lg:py-[72px] px-4 sm:px-6 lg:px-[45px]">
       <div className="max-w-[1440px] mx-auto flex flex-col gap-[48px] lg:gap-[68px]">
@@ -58,25 +58,25 @@ export const PetroleumClients = () => {
           </div>
         </div>
 
-        {/* Partners slider logos - continuous marquee */}
+        {/* Clients slider - continuous marquee */}
         <div className="w-full overflow-hidden">
-          <div className="petroleum-clients-marquee flex w-max">
-            {[...partners, ...partners, ...partners, ...partners].map((partner, index) => (
-              <PartnerCard key={`${partner.name}-${index}`} partner={partner} />
+          <div className="our-clients-marquee flex w-max">
+            {[...clients, ...clients, ...clients, ...clients].map((client, index) => (
+              <ClientCard key={`${client.name}-${index}`} client={client} />
             ))}
           </div>
         </div>
       </div>
 
       <style dangerouslySetInnerHTML={{ __html: `
-        @keyframes petroleum-clients-scroll {
+        @keyframes our-clients-scroll {
           0% { transform: translateX(0); }
           100% { transform: translateX(-25%); }
         }
-        .petroleum-clients-marquee {
-          animation: petroleum-clients-scroll 40s linear infinite;
+        .our-clients-marquee {
+          animation: our-clients-scroll 40s linear infinite;
         }
-        .petroleum-clients-marquee:hover {
+        .our-clients-marquee:hover {
           animation-play-state: paused;
         }
       `}} />

@@ -7,7 +7,7 @@ import { VisionMission } from "./components/VisionMission";
 import { ChairmanMessage } from "./components/ChairmanMessage";
 import { EnergyDivision } from "./components/EnergyDivision";
 import { GoldTrading } from "./components/GoldTrading";
-import { Partners } from "./components/Partners";
+import { OurClients } from "./components/OurClients";
 import { StrategicRegions } from "./components/StrategicRegions";
 import { WhoWeArePage } from "./pages/WhoWeArePage";
 import { CEOMessagePage } from "./pages/CEOMessagePage";
@@ -34,7 +34,7 @@ const HomePage = () => (
       <GoldTrading />
     </div>
     <div id="partners">
-      <Partners />
+      <OurClients />
     </div>
     <div id="operations">
       <StrategicRegions />
