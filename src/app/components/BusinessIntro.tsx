@@ -74,7 +74,7 @@ export const BusinessIntro = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <p className="font-sans font-semibold text-[16px] lg:text-[18px] text-[#1a1a1a] leading-[1.5] tracking-tight mb-6">
+            <p className="font-sans font-semibold text-[17px] lg:text-[19px] text-[#1a1a1a] leading-[1.5] tracking-tight mb-6">
               EDG Gold & Petroleum is a truly global enterprise with a strong presence in multiple GCC states, African nations, and Asian markets. We specialize in:
             </p>
             <ul className="flex flex-col gap-3">
@@ -88,7 +88,7 @@ export const BusinessIntro = () => {
                   className="flex items-start gap-3"
                 >
                   <span className="w-2 h-2 rounded-full bg-[#CEAE5A] mt-2 shrink-0" />
-                  <span className="font-sans text-[14px] lg:text-[15px] text-[#333] leading-[1.55]">
+                  <span className="font-sans text-[15px] lg:text-[17px] text-[#333] leading-[1.55]">
                     {item}
                   </span>
                 </motion.li>

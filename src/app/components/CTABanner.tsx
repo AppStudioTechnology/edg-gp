@@ -38,7 +38,7 @@ export const CTABanner = ({
           <h2 className="text-[28px] md:text-[36px] font-extralight text-white font-sans leading-[1.1] tracking-[-1px] max-w-[800px]">
             {title}
           </h2>
-          <p className="text-white/60 text-[15px] md:text-[16px] font-sans leading-[1.8] max-w-[800px]">
+          <p className="text-white/60 text-[16px] md:text-[18px] font-sans leading-[1.8] max-w-[800px]">
             {description}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-4">

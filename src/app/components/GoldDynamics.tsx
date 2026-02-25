@@ -19,13 +19,13 @@ export const GoldDynamics = () => {
           </h2>
           
           <div className="flex flex-col gap-8">
-            <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+            <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
               EDG-GP DMCC specializes in navigating the complex dynamics of global precious metal markets. Our operations are built on three main pillars: transparency, efficiency, and deep understanding of the market forces that define the international bullion trade.
             </p>
-            <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+            <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
               Our gold supply chain is managed across diverse regions, where we provide refined bullion and dore products to satisfy escalating demands across sectors including finance, jewelry, and luxury markets.
             </p>
-            <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed italic">
+            <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed italic">
               As the gold market continues to evolve towards greater accountability, EDG-GP DMCC remains committed to ensuring every transaction is backed by high-standard compliance and market insight.
             </p>
           </div>
@@ -46,7 +46,7 @@ export const GoldDynamics = () => {
           className="flex flex-col gap-12"
         >
           <div className="border-l-2 border-[#ceae5a] pl-8">
-            <p className="font-sans text-[14px] lg:text-[15px] text-[#151515] leading-relaxed font-medium">
+            <p className="font-sans text-[15px] lg:text-[17px] text-[#151515] leading-relaxed font-medium">
               At EDG Gold, we specialize in the sourcing, trading, and distribution of gold and precious metals across key global markets. Our operations are built on trust, transparency, and a deep understanding of the nuances that define the international bullion trade.
             </p>
           </div>

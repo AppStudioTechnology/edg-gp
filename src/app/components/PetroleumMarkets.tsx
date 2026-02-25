@@ -14,7 +14,7 @@ export const PetroleumMarkets = () => {
               Bridging Markets. <br /> Fueling Prosperity.
             </h2>
           </div>
-          <p className="font-sans font-medium text-[14px] lg:text-[15px] text-black max-w-[998px] leading-relaxed tracking-tight">
+          <p className="font-sans font-medium text-[15px] lg:text-[17px] text-black max-w-[998px] leading-relaxed tracking-tight">
             At EDG Gold & Petroleum, we operate at the heart of global trade—where opportunity meets expertise. Our business is built on a foundation of trust, agility, and strategic insight, enabling us to navigate the complexities of international commodity markets with confidence and precision.
           </p>
         </div>
@@ -23,19 +23,19 @@ export const PetroleumMarkets = () => {
         <div className="flex flex-col lg:flex-row gap-[40px] items-start">
           <div className="w-full lg:w-[827px] flex flex-col gap-12">
             <div className="flex flex-col gap-8">
-              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                 With an extensive global footprint and a well-integrated trading infrastructure, we actively engage in the sourcing, trading, and distribution of oil, petroleum products, and precious metals. From energy corridors to financial capitals, our reach extends across critical trade routes and emerging markets—empowering us to anticipate trends, respond swiftly to market fluctuations, and deliver value where it matters most.
               </p>
-              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                 Our physical trading operations are anchored in strategically chosen geographies, allowing us to optimize supply chains, reduce transactional friction, and enhance pricing efficiency. Whether securing spot deals or managing long-term supply contracts, we bring resilience and reliability to every transaction.
               </p>
-              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                 Driven by market intelligence and guided by a deep understanding of commodity dynamics, EDG Gold & Petroleum continues to be a trusted partner for governments, institutions, and investors seeking to access high-value opportunities in energy and precious metals.
               </p>
             </div>
             
             <div className="bg-[#fafafa] border border-gray-100 p-8 lg:p-10 rounded-[10px]">
-              <p className="font-sans font-medium text-[14px] lg:text-[15px] text-[#555] leading-relaxed tracking-tight">
+              <p className="font-sans font-medium text-[15px] lg:text-[17px] text-[#555] leading-relaxed tracking-tight">
                 We don’t just trade—we build bridges between demand and supply, markets and momentum, vision and value.
               </p>
             </div>

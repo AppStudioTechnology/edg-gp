@@ -25,7 +25,7 @@ export const PetroleumPortfolio = () => {
               Petroleum Products Portfolio
             </h2>
             <div className="h-full lg:h-[108px] border-l-3 border-[#ceae5a] pl-6 lg:pl-10 flex items-center">
-              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] max-w-[776px] leading-relaxed">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] max-w-[776px] leading-relaxed">
                 At EDG Gold & Petroleum, we offer a comprehensive portfolio of petroleum products—designed to meet the diverse needs of governments, enterprises, and industrial clients. Each product is sourced, refined, and delivered with strict adherence to international quality standards and operational efficiency.
               </p>
             </div>
@@ -58,7 +58,7 @@ export const PetroleumPortfolio = () => {
                   <h4 className="font-sans font-semibold text-[14px] lg:text-[16px] text-[#ceae5a]">
                     {item.label}
                   </h4>
-                  <p className="font-sans text-[16px] lg:text-[18px] text-white/80 leading-relaxed">
+                  <p className="font-sans text-[17px] lg:text-[19px] text-white/80 leading-relaxed">
                     {item.text}
                   </p>
                 </div>
@@ -73,7 +73,7 @@ export const PetroleumPortfolio = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="font-sans text-[16px] lg:text-[18px] text-[#555]">
+          <p className="font-sans text-[17px] lg:text-[19px] text-[#555]">
             We turn your ideas to reality. We don’t stop until you’re satisfied.{" "}
             <button className="inline-flex items-center gap-2 font-bold text-black hover:text-[#ceae5a] transition-colors ml-2 group">
               Need to discuss 

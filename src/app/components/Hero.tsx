@@ -33,7 +33,7 @@ export const Hero = () => {
             Fueling prosperity
           </h1>
 
-          <p className="text-white/80 text-[13px] md:text-[14px] lg:text-[15px] leading-[1.65] font-normal font-sans max-w-[640px]">
+          <p className="text-white/80 text-[15px] md:text-[16px] lg:text-[17px] leading-[1.65] font-normal font-sans max-w-[640px]">
             At EDG Gold & Petroleum, we create lasting value through responsible global trade, building trust across energy and precious metals markets from the UAE to the Middle East and Africa.
           </p>
 

@@ -24,7 +24,7 @@ export const CEOMessageContent = () => {
               <h2 className="text-[28px] md:text-[36px] lg:text-[44px] font-extralight text-black leading-[1.1] tracking-[-1px] font-sans">
                 CEO
               </h2>
-              <p className="text-[#555] text-[16px] lg:text-[18px] font-normal font-sans">
+              <p className="text-[#555] text-[17px] lg:text-[19px] font-normal font-sans">
                 EDG Gold &amp; Petroleum
               </p>
             </div>
@@ -56,9 +56,9 @@ export const CEOMessageContent = () => {
 
           {/* Signature */}
           <div className="flex flex-col gap-0.5 text-[#555] font-sans leading-[27px] pt-4">
-            <p className="text-[14px] lg:text-[15px] font-normal">Warm regards,</p>
-            <p className="text-[15px] lg:text-[16px] font-semibold text-black">Chief Executive Officer</p>
-            <p className="text-[14px] lg:text-[15px] font-normal text-[#ceae5a]">EDG Gold &amp; Petroleum</p>
+            <p className="text-[15px] lg:text-[16px] font-normal">Warm regards,</p>
+            <p className="text-[16px] lg:text-[17px] font-semibold text-black">Chief Executive Officer</p>
+            <p className="text-[15px] lg:text-[16px] font-normal text-[#ceae5a]">EDG Gold &amp; Petroleum</p>
           </div>
         </motion.div>
       </div>

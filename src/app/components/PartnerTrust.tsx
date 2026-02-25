@@ -37,11 +37,11 @@ export const PartnerTrust = () => {
             </h2>
             
             <div className="flex flex-col gap-8">
-              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                 At EDG Gold & Petroleum, our services are designed to meet the dynamic needs of today’s global markets. With a strong foundation in commodity trading and an unwavering commitment to excellence, we offer a broad suite of solutions that span both the energy and precious metals sectors. Whether serving national governments, large enterprises, or strategic partners, we deliver performance with purpose and precision.
               </p>
               
-              <p className="font-sans font-medium text-[15px] lg:text-[17px] text-[#151515] leading-[1.4] tracking-tight">
+              <p className="font-sans font-medium text-[16px] lg:text-[18px] text-[#151515] leading-[1.4] tracking-tight">
                 From fueling economies to securing wealth, we are committed to being your strategic trade partner of choice.
               </p>
             </div>

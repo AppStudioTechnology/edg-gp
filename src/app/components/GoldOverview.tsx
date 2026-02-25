@@ -58,15 +58,15 @@ export const GoldOverview = () => {
             </h2>
             
             <div className="flex flex-col gap-8">
-              <p className="font-sans font-medium text-[14px] lg:text-[15px] text-[#151515] leading-[1.4] tracking-tight">
+              <p className="font-sans font-medium text-[15px] lg:text-[17px] text-[#151515] leading-[1.4] tracking-tight">
                 In parallel with our energy operations, EDG-GP DMCC is a trusted player in the gold and precious metals trade. We offer end-to-end precious metal services—from sourcing and aggregation to refinement and distribution—ensuring full traceability, compliance, and quality at every step.
               </p>
               
-              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                 As world-class market specialists, we combine traditional expertise with a modern trading infrastructure to provide a reliable bridge between global mines and refineries. Our focus is on ensuring a consistent supply of responsibly sourced bullion, high-purity gold bars, and dore to meet the diverse needs of our global client base.
               </p>
               
-              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                 Through our established global network of miners, refineries, and logistics providers, we manage the entire value chain. Every transaction is underpinned by a commitment to transparency, ethical sourcing, and adherence to OECD and LBMA guidelines, providing confidence to our global partners and clients.
               </p>
             </div>

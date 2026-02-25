@@ -49,7 +49,7 @@ export const Footer = () => {
                 <path d={svgPaths.p1f7e4300} fill="#CEAE5A" />
               </svg>
             </div>
-            <p className="text-white/70 font-sans text-[13px] sm:text-[14px] leading-[22px] max-w-[280px]">
+            <p className="text-white/70 font-sans text-[14px] sm:text-[15px] leading-[22px] max-w-[280px]">
               At EDG Gold & Petroleum, we create lasting value through responsible global trade, building trust across energy and precious metals markets from the UAE to the Middle East and Africa.
             </p>
           </div>

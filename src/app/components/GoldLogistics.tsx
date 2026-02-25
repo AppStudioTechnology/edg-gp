@@ -29,7 +29,7 @@ export const GoldLogistics = () => {
             {investments.map((item, idx) => (
               <div key={idx} className="flex gap-6 py-6 border-b border-gray-200 last:border-0 items-start">
                 <div className="w-[12px] h-[12px] rounded-full bg-[#ceae5a] mt-2 shrink-0" />
-                <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+                <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                   {item}
                 </p>
               </div>

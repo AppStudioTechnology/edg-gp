@@ -40,7 +40,7 @@ export const GoldTradingService = () => {
           </h2>
           
           <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-12 flex-1 lg:max-w-[1000px]">
-            <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed border-l-2 border-[#ceae5a] pl-8">
+            <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed border-l-2 border-[#ceae5a] pl-8">
               The division's core focus is on sourcing high-quality precious metals from reliable partners across major global mines, and distributing them to leading refineries and financial institutions worldwide. We handle both raw gold (dore) and refined investment-grade bullion, ensuring transparency and market-leading efficiency in every transaction.
             </p>
             

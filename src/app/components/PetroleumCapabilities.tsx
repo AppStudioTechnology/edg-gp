@@ -44,7 +44,7 @@ export const PetroleumCapabilities = () => {
               Capabilities- Petroleum Division
             </h2>
             <div className="h-full lg:h-[108px] border-l-3 border-[#ceae5a] pl-6 lg:pl-10 flex items-center">
-              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] max-w-[840px] leading-relaxed">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] max-w-[840px] leading-relaxed">
                 At EDG Gold & Petroleum, our petroleum division is designed to deliver efficiency, reliability, and value across every stage of the supply chain. We don’t just trade products—we provide strategic solutions that empower our clients to operate with confidence in volatile markets.
               </p>
             </div>
@@ -78,7 +78,7 @@ export const PetroleumCapabilities = () => {
                 <h3 className="font-sans font-semibold text-[16px] lg:text-[18px] text-black leading-tight">
                   {item.title}
                 </h3>
-                <p className="font-sans text-[16px] lg:text-[16.9px] text-[#555] leading-relaxed">
+                <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                   {item.desc}
                 </p>
               </div>

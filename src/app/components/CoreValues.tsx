@@ -53,7 +53,7 @@ export const CoreValues = () => {
             </h2>
           </div>
           <div className="border-l-[3px] border-[#ceae5a] pl-6 max-w-[520px]">
-            <p className="text-[#555] text-[14px] lg:text-[15px] leading-[1.75] font-sans">
+            <p className="text-[#555] text-[15px] lg:text-[17px] leading-[1.75] font-sans">
               At EDG Gold & Petroleum, our values are the foundation of everything we do. They define how we operate, how we serve, and how we grow—together with our clients, partners, and communities.
             </p>
           </div>
@@ -85,7 +85,7 @@ export const CoreValues = () => {
                   <h3 className="text-[18px] lg:text-[20px] font-bold text-black mb-2 font-sans tracking-tight">
                     {value.title}
                   </h3>
-                  <p className="text-[#555] text-[14px] lg:text-[15px] leading-[1.65] font-sans">
+                  <p className="text-[#555] text-[15px] lg:text-[17px] leading-[1.65] font-sans">
                     {value.description}
                   </p>
                 </div>

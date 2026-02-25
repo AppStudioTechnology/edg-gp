@@ -38,7 +38,7 @@ export const MarketPresence = () => {
             Lasting Impact.
           </h2>
           
-          <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed max-w-[717px]">
+          <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed max-w-[717px]">
             At EDG Gold & Petroleum, the Middle East and Africa (MEA) are more than just markets—they are the beating heart of our business operations and a cornerstone of our long-term growth strategy. These regions offer a unique blend of natural wealth, industrial demand, and strategic geographic positioning that aligns perfectly with our core competencies in petroleum and precious metals trading.
           </p>
         </motion.div>

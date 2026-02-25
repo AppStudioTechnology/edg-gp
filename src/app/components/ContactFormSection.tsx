@@ -30,13 +30,13 @@ export const ContactFormSection = () => {
               {/* Addresses */}
               <div className="flex flex-col gap-4">
                 <span className="text-[#8C8C8C] text-[16px] font-sans">Visit us</span>
-                <p className="text-black text-[18px] font-sans leading-[1.5]">
+                <p className="text-black text-[19px] font-sans leading-[1.5]">
                   DMCC Business Centre, Level No 1 Jewellery & Gemplex 3, Dubai - UAE
                 </p>
               </div>
               <div className="flex flex-col gap-4">
                 <span className="text-[#8C8C8C] text-[16px] font-sans">Visit us</span>
-                <p className="text-black text-[18px] font-sans leading-[1.5]">
+                <p className="text-black text-[19px] font-sans leading-[1.5]">
                   Prism Tower, Business Bay,<br />Office 3006, Dubai, UAE
                 </p>
               </div>
@@ -44,7 +44,7 @@ export const ContactFormSection = () => {
               {/* Contact details */}
               <div className="flex flex-col gap-4">
                 <span className="text-[#8C8C8C] text-[16px] font-sans">How can we help?</span>
-                <div className="text-black text-[18px] font-sans flex flex-col gap-1">
+                <div className="text-black text-[19px] font-sans flex flex-col gap-1">
                   <p>Phone: (+971) 45548286</p>
                   <p>Mobile: (+971) 503541413</p>
                   <p>Fax: (+971) 503541413</p>
@@ -52,7 +52,7 @@ export const ContactFormSection = () => {
               </div>
               <div className="flex flex-col gap-4">
                 <span className="text-[#8C8C8C] text-[16px] font-sans">Email us</span>
-                <p className="text-black text-[18px] font-sans">
+                <p className="text-black text-[19px] font-sans">
                   info@edg-gp.com
                 </p>
               </div>

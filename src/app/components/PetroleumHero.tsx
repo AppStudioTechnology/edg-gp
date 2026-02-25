@@ -34,7 +34,7 @@ export const PetroleumHero = () => {
             Driving Energy Forward with Precision and Integrity
           </h1>
           
-          <p className="font-sans text-[14px] lg:text-[15px] text-white/90 leading-relaxed mb-10 max-w-[700px]">
+          <p className="font-sans text-[15px] lg:text-[17px] text-white/90 leading-relaxed mb-10 max-w-[700px]">
             Delivering world-class petroleum trading solutions—fueling industries, empowering nations, and ensuring excellence across every transaction.
           </p>
           

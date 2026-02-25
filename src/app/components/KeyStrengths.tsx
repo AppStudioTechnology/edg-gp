@@ -110,7 +110,7 @@ export const KeyStrengths = () => {
                 <h3 className="font-sans font-medium text-[16px] lg:text-[18px] text-[#151515] leading-[1.6] mb-[14px]">
                   {item.title}
                 </h3>
-                <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+                <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                   {item.desc}
                 </p>
               </div>

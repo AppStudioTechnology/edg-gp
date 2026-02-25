@@ -27,7 +27,7 @@ export const FocusOnMEA = () => {
             {focusItems.map((item, idx) => (
               <div key={idx} className="flex gap-6 py-4 border-b border-gray-100 last:border-0 items-start group">
                 <div className="w-[14px] h-[14px] rounded-full bg-[#ceae5a] mt-1.5 shrink-0 transition-transform group-hover:scale-125" />
-                <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+                <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                   {item}
                 </p>
               </div>
@@ -41,7 +41,7 @@ export const FocusOnMEA = () => {
           viewport={{ once: true }}
           className="bg-[#fafafa] p-10 lg:p-[60px] rounded-[10px] border border-gray-100"
         >
-          <p className="font-sans text-[14px] lg:text-[16px] text-[#151515] leading-relaxed mb-8 italic">
+          <p className="font-sans text-[15px] lg:text-[17px] text-[#151515] leading-relaxed mb-8 italic">
             "At EDG Gold & Petroleum, our work in the Middle East and Africa is more than business—it’s a commitment to shared prosperity, sustainable trade, and long-term value creation. We don’t just serve these markets—we grow with them."
           </p>
           <div className="w-[60px] h-[2px] bg-[#ceae5a]" />

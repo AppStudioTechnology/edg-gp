@@ -39,7 +39,7 @@ export const GoldHero = () => {
             Connecting Markets. Refining Value. Building Trust.
           </h1>
           
-          <p className="font-sans text-[14px] lg:text-[15px] text-white/95 leading-relaxed mb-10 max-w-[700px]">
+          <p className="font-sans text-[15px] lg:text-[17px] text-white/95 leading-relaxed mb-10 max-w-[700px]">
             Delivering excellence in precious metals trading—from ethical sourcing to global distribution, ensuring integrity at every step.
           </p>
           

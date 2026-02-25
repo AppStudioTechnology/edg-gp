@@ -53,15 +53,15 @@ export const PetroleumOverview = () => {
             </h2>
             
             <div className="flex flex-col gap-8">
-              <p className="font-sans font-medium text-[14px] lg:text-[15px] text-[#151515] leading-[1.4] tracking-tight">
+              <p className="font-sans font-medium text-[15px] lg:text-[17px] text-[#151515] leading-[1.4] tracking-tight">
                 We supply a wide range of refined oil products tailored to meet the evolving needs of government agencies, public institutions, and private corporations. Our operational strength lies in our ability to offer reliable, on-time delivery with competitive pricing and full compliance with international quality standards.
               </p>
               
-              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                 Our petroleum products are sourced from some of the highest-quality refineries in the GCC & Global Market, and are formulated to meet the strictest industry standards. The petroleum products we supply is designed to provide maximum power and performance, with the following key characteristics:
               </p>
               
-              <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                 Conforms to Clients country standards: Petroleum products supplies are formulated to meet the latest standards for diesel fuel, Gasoline, etc.. ensuring that it meets the highest quality and performance standards.
               </p>
             </div>

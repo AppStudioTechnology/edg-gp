@@ -59,10 +59,10 @@ export const GoldTrading = () => {
             </h2>
 
             <div className="flex flex-col gap-4 max-w-[760px]">
-              <p className="font-sans font-normal text-[13px] lg:text-[14px] text-white leading-[1.65] lg:leading-[24px]">
+              <p className="font-sans font-normal text-[15px] lg:text-[16px] text-white leading-[1.65] lg:leading-[24px]">
                 In parallel with our energy operations, EDG Gold is a trusted player in the global gold and precious metals trade. We provide end-to-end gold trading services—from sourcing and aggregation to final distribution—ensuring full traceability, compliance, and security at every step.
               </p>
-              <p className="font-sans font-normal text-[13px] lg:text-[14px] text-white leading-[1.65] lg:leading-[24px]">
+              <p className="font-sans font-normal text-[15px] lg:text-[16px] text-white leading-[1.65] lg:leading-[24px]">
                 We support our clients with access to physical gold and custom trading solutions that align with investment, treasury, or commercial goals. Our approach blends traditional values of trust with modern trading platforms and data-driven decision-making.
               </p>
             </div>

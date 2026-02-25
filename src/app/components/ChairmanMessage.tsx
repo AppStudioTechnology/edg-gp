@@ -42,7 +42,7 @@ export const ChairmanMessage = () => {
           </p>
 
           {/* Body paragraphs */}
-          <div className="text-[#555] text-[15px] lg:text-[16px] leading-[1.75] font-normal font-sans space-y-6">
+          <div className="text-[#555] text-[16px] lg:text-[18px] leading-[1.75] font-normal font-sans space-y-6">
             <p>
               In a world where access to reliable energy and ethically sourced resources defines both economic growth and social stability, our role has never been more critical. We take pride in being at the intersection of opportunity and responsibility—delivering high-quality oil, gas, and gold products to clients who rely on our consistency, transparency, and market insight.
             </p>
@@ -56,9 +56,9 @@ export const ChairmanMessage = () => {
 
           {/* Signature */}
           <div className="flex flex-col gap-0.5 text-[#555] font-sans leading-[27px] pt-4">
-            <p className="text-[14px] lg:text-[15px] font-normal">Warm regards,</p>
-            <p className="text-[15px] lg:text-[16px] font-semibold text-black">Chairman</p>
-            <p className="text-[14px] lg:text-[15px] font-normal text-[#ceae5a]">EDG Gold &amp; Petroleum</p>
+            <p className="text-[15px] lg:text-[16px] font-normal">Warm regards,</p>
+            <p className="text-[16px] lg:text-[17px] font-semibold text-black">Chairman</p>
+            <p className="text-[15px] lg:text-[16px] font-normal text-[#ceae5a]">EDG Gold &amp; Petroleum</p>
           </div>
         </motion.div>
       </div>

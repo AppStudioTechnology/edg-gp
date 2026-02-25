@@ -22,7 +22,7 @@ export const EnergyOpportunity = () => {
                 Energy & Opportunity Aligned
               </h2>
             </div>
-            <div className="flex flex-col gap-6 text-[#555] text-[15px] font-sans leading-[1.7]">
+            <div className="flex flex-col gap-6 text-[#555] text-[16px] lg:text-[18px] font-sans leading-[1.7]">
               <p>
                 At the heart of our operations is a commitment to excellence, integrity, and sustainability. We leverage our deep market expertise and logistical capabilities to provide efficient and reliable energy and commodities solutions to our clients.
               </p>

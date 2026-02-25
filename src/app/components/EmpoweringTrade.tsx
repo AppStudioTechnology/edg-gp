@@ -40,7 +40,7 @@ export const EmpoweringTrade = () => {
             Empowering Trade. Delivering Value. Fueling Progress.
           </h2>
           
-          <p className="font-sans text-[16px] lg:text-[18px] text-[#555] leading-relaxed max-w-[806px]">
+          <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed max-w-[806px]">
             At EDG Gold & Petroleum, our services are designed to meet the dynamic needs of today’s global markets. With a strong foundation in commodity trading and an unwavering commitment to excellence, we offer tailored solutions that span both the energy and precious metals sectors. Whether serving national governments, large enterprises, or strategic partners, we deliver performance with purpose and precision.
           </p>
           

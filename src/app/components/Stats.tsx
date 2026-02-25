@@ -33,7 +33,7 @@ const StatCard = ({ title, value, subtext, isDark = false, iconPath }: { title: 
       </div>
       <div className="flex flex-col gap-[17px] w-full">
         <div className={`h-px w-full ${isDark ? "border-t border-white/40" : "border-t border-black/10"}`} />
-        <p className={`text-[12px] lg:text-[13px] leading-[20px] font-normal tracking-[-0.18px] ${isDark ? "text-white" : "text-[#8c8c8c]"} font-sans`}>
+        <p className={`text-[13px] lg:text-[14px] leading-[20px] font-normal tracking-[-0.18px] ${isDark ? "text-white" : "text-[#8c8c8c]"} font-sans`}>
           {subtext}
         </p>
       </div>

@@ -37,7 +37,7 @@ export const PetroleumOperations = () => {
                     <span className="font-sans font-semibold text-[14px] sm:text-[15px] lg:text-[17px] text-black">
                       {item.label}
                     </span>
-                    <p className="font-sans text-[14px] sm:text-[16px] lg:text-[18px] text-[#555]">
+                    <p className="font-sans text-[15px] sm:text-[17px] lg:text-[19px] text-[#555]">
                       {item.text}
                     </p>
                   </div>

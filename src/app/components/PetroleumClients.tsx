@@ -42,7 +42,7 @@ export const PetroleumClients = () => {
                 Our Clients
               </h2>
               <div className="h-full border-l-3 border-[#ceae5a] pl-8 flex items-center">
-                <p className="font-sans text-[16px] lg:text-[18px] text-[#555] max-w-[840px] leading-relaxed">
+                <p className="font-sans text-[17px] lg:text-[19px] text-[#555] max-w-[840px] leading-relaxed">
                   An international reach: the knowledge, network and resources to deliver for clients – leading players in their sectors – around the world.
                 </p>
               </div>

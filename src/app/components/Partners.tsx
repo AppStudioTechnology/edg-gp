@@ -43,7 +43,7 @@ export const Partners = () => {
 
           <div className="flex flex-col sm:flex-row items-start sm:items-end gap-8 lg:gap-10">
             <div className="border-l-[3px] border-[#ceae5a] pl-6 max-w-[420px]">
-              <p className="font-sans font-normal text-[14px] lg:text-[15px] leading-[1.9] text-[#555] tracking-[-0.2px]">
+              <p className="font-sans font-normal text-[15px] lg:text-[17px] leading-[1.9] text-[#555] tracking-[-0.2px]">
                 Dedicated to supporting our clients and partners in every strategic step.
               </p>
             </div>

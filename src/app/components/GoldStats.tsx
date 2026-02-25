@@ -28,14 +28,14 @@ export const GoldStats = () => {
               <div className="font-sans font-bold text-[14px] lg:text-[15px] text-white">
                 {stat.label}
               </div>
-              <p className="font-sans text-[14px] text-white/50 leading-relaxed max-w-[200px]">
+              <p className="font-sans text-[15px] text-white/50 leading-relaxed max-w-[200px]">
                 {stat.sub}
               </p>
             </motion.div>
           ))}
         </div>
         
-        <p className="font-sans text-[16px] text-white/40 text-center max-w-[800px] leading-relaxed italic">
+        <p className="font-sans text-[17px] text-white/40 text-center max-w-[800px] leading-relaxed italic">
           Trust by governments, financial institutions, and professional partners worldwide, ensuring growth and shaping the future markets of gold.
         </p>
       </div>

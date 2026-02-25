@@ -77,7 +77,7 @@ export const EnergyDivision = () => {
               Energy Division<br />
               Petroleum Trading Excellence
             </h2>
-            <p className="font-sans font-normal text-[13px] lg:text-[14px] text-white leading-[1.65] lg:leading-[24px]">
+            <p className="font-sans font-normal text-[15px] lg:text-[16px] text-white leading-[1.65] lg:leading-[24px]">
               We supply a wide range of refined oil products tailored to meet the evolving needs of government agencies, public institutions, and private corporations. Our operational strength lies in our ability to offer reliable, on-time delivery with competitive pricing and full compliance with international quality standards.
             </p>
           </motion.div>
