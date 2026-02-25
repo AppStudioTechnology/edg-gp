@@ -29,11 +29,11 @@ export const PetroleumHero = () => {
             </span>
           </div>
           
-          <h1 className="font-sans font-bold text-[36px] sm:text-[44px] md:text-[50px] lg:text-[55px] text-white leading-[67px] tracking-[-1.2px] mb-6">
+          <h1 className="font-sans font-extralight text-[36px] sm:text-[44px] md:text-[52px] lg:text-[60px] text-white leading-[1.05] tracking-[-1.2px] mb-6">
             Driving Energy Forward with Precision and Integrity
           </h1>
           
-          <p className="font-sans text-[15px] lg:text-[18px] text-white/90 leading-[31.5px] mb-10 max-w-[700px]">
+          <p className="font-sans text-[15px] md:text-[16px] lg:text-[17px] text-white/90 leading-[1.65] mb-10 max-w-[700px]">
             Delivering world-class petroleum trading solutions—fueling industries, empowering nations, and ensuring excellence across every transaction.
           </p>
           

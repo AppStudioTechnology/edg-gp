@@ -48,20 +48,20 @@ export const PetroleumOverview = () => {
             viewport={{ once: true }}
             className="flex flex-col gap-10"
           >
-            <h2 className="font-sans font-bold text-[40px] lg:text-[50px] text-black leading-[1.1] tracking-[-1px]">
+            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px]">
               Overview<span className="text-[#ceae5a]">.</span>
             </h2>
             
             <div className="flex flex-col gap-8">
-              <p className="font-sans font-medium text-[20px] lg:text-[22px] text-black leading-[30px] tracking-[-0.48px]">
+              <p className="font-sans font-medium text-[17px] lg:text-[19px] text-black leading-relaxed">
                 We supply a wide range of refined oil products tailored to meet the evolving needs of government agencies, public institutions, and private corporations. Our operational strength lies in our ability to offer reliable, on-time delivery with competitive pricing and full compliance with international quality standards.
               </p>
               
-              <p className="font-sans text-[18px] text-[#555] leading-[27px] tracking-[-0.18px]">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                 Our petroleum products are sourced from some of the highest-quality refineries in the GCC & Global Market, and are formulated to meet the strictest industry standards. The petroleum products we supply is designed to provide maximum power and performance, with the following key characteristics:
               </p>
               
-              <p className="font-sans text-[18px] text-[#555] leading-[27px] tracking-[-0.18px]">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed">
                 Conforms to Clients country standards: Petroleum products supplies are formulated to meet the latest standards for diesel fuel, Gasoline, etc.. ensuring that it meets the highest quality and performance standards.
               </p>
             </div>

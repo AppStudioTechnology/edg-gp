@@ -38,7 +38,7 @@ export const PetroleumClients = () => {
           
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
             <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16 flex-1">
-              <h2 className="font-sans font-bold text-[40px] lg:text-[50px] text-black leading-[52px] tracking-[-1px] max-w-[474px]">
+              <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px] max-w-[474px]">
                 Our Clients
               </h2>
               <div className="h-full border-l-3 border-[#ceae5a] pl-8 flex items-center">

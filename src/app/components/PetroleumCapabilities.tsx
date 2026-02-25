@@ -40,11 +40,11 @@ export const PetroleumCapabilities = () => {
 
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 mb-[92px]">
           <div className="flex flex-col lg:flex-row lg:items-center flex-1">
-            <h2 className="font-sans font-bold text-[40px] lg:text-[50px] text-black leading-[52px] tracking-[-1px] w-full lg:w-[474px] shrink-0">
+            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px] w-full lg:w-[474px] shrink-0">
               Capabilities- Petroleum Division
             </h2>
             <div className="border-l-3 border-[#ceae5a] h-[108px] flex items-center pl-[35px] mt-6 lg:mt-0">
-              <p className="font-sans text-[18px] text-[#555] max-w-[840px] leading-[36px] tracking-[-0.48px]">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] max-w-[840px] leading-relaxed">
                 At EDG Gold & Petroleum, our petroleum division is designed to deliver efficiency, reliability, and value across every stage of the supply chain. We don't just trade products—we provide strategic solutions that empower our clients to operate with confidence in volatile markets.
               </p>
             </div>
@@ -70,7 +70,7 @@ export const PetroleumCapabilities = () => {
               viewport={{ once: true }}
               className="bg-[#f2f5fb] rounded-[8px] p-[27px] flex flex-col h-auto lg:h-[428px] hover:shadow-lg transition-shadow"
             >
-              <h3 className="font-sans font-semibold text-[22px] lg:text-[25px] text-black leading-[31px] tracking-[-0.48px]">
+              <h3 className="font-sans font-semibold text-[16px] lg:text-[18px] text-black leading-snug">
                 {item.title}
               </h3>
 
@@ -80,7 +80,7 @@ export const PetroleumCapabilities = () => {
                     {item.icon}
                   </div>
                 </div>
-                <p className="font-sans text-[16.9px] text-[#555] leading-[27px] tracking-[-0.18px]">
+                <p className="font-sans text-[15px] lg:text-[17px] text-[#555] leading-relaxed">
                   {item.desc}
                 </p>
               </div>

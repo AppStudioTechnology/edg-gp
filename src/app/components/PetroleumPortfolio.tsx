@@ -31,11 +31,11 @@ export const PetroleumPortfolio = () => {
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-[56px]">
           <div className="flex flex-col lg:flex-row lg:items-center">
-            <h2 className="font-sans font-bold text-[40px] lg:text-[50px] text-black leading-[52px] tracking-[-1px] w-full lg:w-[710px] shrink-0">
+            <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px] w-full lg:w-[710px] shrink-0">
               Petroleum Products Portfolio
             </h2>
             <div className="border-l-3 border-[#ceae5a] pl-[44px] flex items-center mt-6 lg:mt-0">
-              <p className="font-sans text-[18px] text-[#555] max-w-[776px] leading-[36px] tracking-[-0.48px]">
+              <p className="font-sans text-[17px] lg:text-[19px] text-[#555] max-w-[776px] leading-relaxed">
                 At EDG Gold & Petroleum, we offer a comprehensive portfolio of petroleum products—designed to meet the diverse needs of governments, enterprises, and industrial clients. Each product is sourced, refined, and delivered with strict adherence to international quality standards and operational efficiency.
               </p>
             </div>
@@ -56,19 +56,19 @@ export const PetroleumPortfolio = () => {
           {/* Left Content (Blue Box) */}
           <div className="w-full lg:w-[71%] bg-[#000435] pt-[51px] pb-[100px] px-6 sm:px-8 lg:px-[60px] flex flex-col justify-center relative z-10">
             <div className="flex items-center justify-between mb-[26px]">
-              <h3 className="font-sans font-bold text-[28px] lg:text-[37px] text-white tracking-[-1.32px] leading-[48px]">
+              <h3 className="font-sans font-semibold text-[20px] lg:text-[22px] text-white leading-tight">
                 Light Distillates
               </h3>
-              <span className="text-[#ceae5a] opacity-30 font-bold text-[60px] sm:text-[80px] lg:text-[141px] leading-none tracking-[-0.18px]">01</span>
+              <span className="text-[#ceae5a] opacity-30 font-bold text-[48px] sm:text-[64px] lg:text-[100px] leading-none">01</span>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-y-[33px] gap-x-[135px]">
               {portfolioItems.map((item, idx) => (
                 <div key={idx} className="flex flex-col gap-2">
-                  <h4 className="font-sans font-semibold text-[20px] lg:text-[23px] text-[#ceae5a] leading-[36px] tracking-[-0.48px]">
+                  <h4 className="font-sans font-semibold text-[16px] lg:text-[18px] text-[#ceae5a] leading-snug">
                     {item.label}
                   </h4>
-                  <p className="font-sans text-[18px] text-white leading-[26px] tracking-[-0.48px]">
+                  <p className="font-sans text-[15px] lg:text-[17px] text-white/90 leading-relaxed">
                     {item.text}
                   </p>
                 </div>
@@ -83,10 +83,10 @@ export const PetroleumPortfolio = () => {
         </div>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-[5px] py-[26px]">
-          <p className="font-sans text-[18px] text-[#555] leading-[27px] tracking-[-0.18px] text-center">
+          <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed text-center">
             We turn your ideas to reality. We don't stop until you're satisfied.
           </p>
-          <a href="#contact" className="inline-flex items-center gap-[10px] font-sans font-bold text-[16.6px] text-black tracking-[-0.18px] group">
+          <a href="#contact" className="inline-flex items-center gap-[10px] font-sans font-medium text-[15px] lg:text-[16px] text-black group">
             Need to discuss
             <span className="w-[30px] h-[30px] rounded-full bg-[#ceae5a] flex items-center justify-center group-hover:scale-110 transition-transform shrink-0">
               <ChevronRight className="size-4 text-white" />
