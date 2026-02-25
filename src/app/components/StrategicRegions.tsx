@@ -27,13 +27,13 @@ export const StrategicRegions = () => {
       <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px]">
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-[72px] items-end">
 
-          {/* Left: Regions + Button */}
+          {/* Regions + Button - second on mobile (order-2), first on desktop (order-1) */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1.2 }}
-            className="flex flex-col gap-[36px] lg:flex-1"
+            className="flex flex-col gap-[36px] lg:flex-1 order-2 lg:order-1"
           >
             <div className="flex flex-col gap-[19px]">
               {regions.map((region) => (
@@ -61,13 +61,13 @@ export const StrategicRegions = () => {
             </motion.button>
           </motion.div>
 
-          {/* Right: Heading + Description */}
+          {/* Heading + Description - first on mobile (order-1), second on desktop (order-2) */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1.2, delay: 0.2 }}
-            className="flex flex-col gap-[36px] lg:flex-1 max-w-[709px]"
+            className="flex flex-col gap-[36px] lg:flex-1 max-w-[709px] order-1 lg:order-2"
           >
             <div className="bg-[#ceae5a] px-[8px] py-px rounded-[6px] w-fit">
               <span className="font-sans font-medium text-[10px] lg:text-[11px] text-white uppercase leading-[20px]">

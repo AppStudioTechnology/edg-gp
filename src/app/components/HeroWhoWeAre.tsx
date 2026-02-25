@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { Link } from "react-router";
-import imgHero from "@/assets/whoweare.png";
+import imgHero from "@/assets/hero.png";
 import imgDecor from "@/assets/a3dece847acdf1321aff9e051494b49b5b4ae175.png";
 
 export const HeroWhoWeAre = () => {

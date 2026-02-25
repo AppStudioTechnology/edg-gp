@@ -33,13 +33,13 @@ export const EnergyDivision = () => {
       <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px]">
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-[72px] items-end">
 
-          {/* Left: Products List */}
+          {/* Products List - shows second on mobile (order-2), first on desktop (order-1) */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
-            className="flex flex-col gap-[28px] lg:flex-1"
+            className="flex flex-col gap-[28px] lg:flex-1 order-2 lg:order-1"
           >
             <div className="flex flex-col gap-[18px]">
               <h3 className="font-sans font-semibold text-[14px] lg:text-[16px] text-white leading-[22px]">
@@ -65,13 +65,13 @@ export const EnergyDivision = () => {
             </motion.button>
           </motion.div>
 
-          {/* Right: Heading + Description */}
+          {/* Heading + Description - shows first on mobile (order-1), second on desktop (order-2) */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="flex flex-col gap-[24px] lg:flex-1"
+            className="flex flex-col gap-[24px] lg:flex-1 order-1 lg:order-2"
           >
             <h2 className="font-sans font-extralight text-[28px] md:text-[36px] lg:text-[42px] text-white leading-[1.1] tracking-[-1px]">
               Energy Division<br />
