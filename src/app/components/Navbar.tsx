@@ -43,17 +43,17 @@ export const Navbar = () => {
   const closeMobileMenu = () => setIsMobileOpen(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 pt-4 pb-4 px-4 sm:px-6 lg:px-[45px] pointer-events-none [&>*]:pointer-events-auto">
+    <header className="fixed top-0 left-0 right-0 z-50 pt-2 pb-2 px-4 sm:px-6 lg:px-[45px] pointer-events-none [&>*]:pointer-events-auto">
       <motion.div
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.3 }}
-        className={`navbar-glass-bar w-full max-w-[1440px] mx-auto ${isScrolled ? "py-2.5" : "py-4"} px-4 sm:px-6 lg:px-[45px]`}
+        className={`navbar-glass-bar w-full max-w-[1440px] mx-auto ${isScrolled ? "py-1.5" : "py-2.5"} px-4 sm:px-6 lg:px-[45px]`}
       >
         <div className="flex items-center justify-between gap-4">
           {/* LEFT: Logo */}
           <Link to="/" className="flex items-center shrink-0">
-            <div className="h-[55px] lg:h-[60px] w-auto aspect-[101/110] transition-all duration-300 transform hover:scale-105 cursor-pointer">
+            <div className="h-[44px] lg:h-[48px] w-auto aspect-[101/110] transition-all duration-300 transform hover:scale-105 cursor-pointer">
               <svg
                 className="block h-full w-full"
                 fill="none"

@@ -21,7 +21,7 @@ export const Hero = () => {
         <div className="absolute inset-0 bg-black/40" />
       </div>
 
-      <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px] pt-[120px] md:pt-[140px]">
+      <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px] pt-[96px] md:pt-[104px]">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
