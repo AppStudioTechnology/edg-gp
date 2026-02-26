@@ -42,10 +42,20 @@ export const Navbar = () => {
 
   const closeMobileMenu = () => setIsMobileOpen(false);
 
+  const glassStyle: React.CSSProperties = {
+    background: 'rgba(255, 255, 255, 0.1)',
+    backdropFilter: 'blur(9px)',
+    WebkitBackdropFilter: 'blur(9px)',
+    border: '1px solid rgba(255, 255, 255, 0.3)',
+    borderRadius: '20px',
+    boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 -1px 0 rgba(255, 255, 255, 0.1), inset 0 0 12px 6px rgba(255, 255, 255, 0.6)',
+  };
+
   return (
     <motion.header
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
+      style={glassStyle}
       className={`header-glass w-full z-50 transition-all duration-300 ${
         isScrolled ? "py-2.5 shadow-lg shadow-black/15" : "py-4"
       }`}
