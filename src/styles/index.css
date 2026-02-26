@@ -8,7 +8,7 @@ html {
 
 /* Navbar glassmorphism – darker tint so white/gold text is readable on white pages */
 .navbar-glass-bar {
-  background: rgba(17, 25, 40, 0.65);
+  background: rgba(17, 25, 40, 0.85);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
   border-radius: 16px;
@@ -20,7 +20,7 @@ html {
 
 /* Mobile dropdown – same glass */
 .navbar-glass-menu {
-  background: rgba(17, 25, 40, 0.65);
+  background: rgba(17, 25, 40, 0.85);
   backdrop-filter: blur(40px);
   -webkit-backdrop-filter: blur(40px);
   border-radius: 16px;
