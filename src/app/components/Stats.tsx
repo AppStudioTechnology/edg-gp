@@ -23,7 +23,9 @@ const StatCard = ({ title, value, subtext, isDark = false, iconPath }: { title: 
         <div className="flex items-end justify-between w-full">
           <div className="w-[32px] h-[32px] lg:w-[40px] lg:h-[40px] shrink-0">
             <svg className="w-full h-full" viewBox="0 0 50 50">
-              <path d={iconPath} fill="#CEAE5A" />
+              <g transform="rotate(180 25 25)">
+                <path d={iconPath} fill="#CEAE5A" />
+              </g>
             </svg>
           </div>
           <span className={`text-[28px] sm:text-[34px] lg:text-[48px] leading-none font-extralight tracking-[-2px] lg:tracking-[-2.5px] ${isDark ? "text-white" : "text-black"} font-sans`}>
