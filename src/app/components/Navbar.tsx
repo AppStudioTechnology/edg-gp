@@ -111,8 +111,8 @@ export const Navbar = () => {
                         className={`font-sans font-medium text-[14px] xl:text-[15px] whitespace-nowrap transition-colors ${
                           (item.name === "About Us" && location.pathname.startsWith("/about")) ||
                           (item.name === "Business Sectors" && location.pathname.startsWith("/services"))
-                            ? "text-white"
-                            : "text-white/90 hover:text-[#ceae5a]"
+                            ? "text-[#151515]"
+                            : "text-[#151515]/90 hover:text-[#ceae5a]"
                         }`}
                       >
                         {item.name}
@@ -127,7 +127,7 @@ export const Navbar = () => {
                       />
                     </div>
                     <svg
-                      className={`size-3 transition-transform duration-300 text-white ${
+                      className={`size-3 transition-transform duration-300 text-[#151515] ${
                         (item.name === "About Us" && isAboutOpen) || (item.name === "Business Sectors" && isSectorsOpen)
                           ? "rotate-180"
                           : ""
@@ -142,7 +142,7 @@ export const Navbar = () => {
                   <Link
                     to={item.path}
                     className={`relative inline-block font-sans font-medium text-[14px] xl:text-[15px] leading-tight whitespace-nowrap transition-colors ${
-                      location.pathname === item.path ? "text-white" : "text-white/90 hover:text-[#ceae5a]"
+                      location.pathname === item.path ? "text-[#151515]" : "text-[#151515]/90 hover:text-[#ceae5a]"
                     }`}
                   >
                     {item.name}
@@ -195,7 +195,7 @@ export const Navbar = () => {
               <div className="flex items-center gap-[8px]">
                 <span className="font-sans font-semibold text-[#8a8a8a] text-[13px] leading-none">Call us:</span>
                 <div className="flex flex-col items-center group cursor-pointer relative">
-                  <span className="font-sans font-semibold text-[13px] text-white leading-tight group-hover:text-[#ceae5a] transition-colors whitespace-nowrap pb-[1px]">
+                  <span className="font-sans font-semibold text-[13px] text-[#151515] leading-tight group-hover:text-[#ceae5a] transition-colors whitespace-nowrap pb-[1px]">
                     (+971) 45548286
                   </span>
                   <div className="bg-[#ceae5a] h-px w-full absolute bottom-0" />
@@ -204,7 +204,7 @@ export const Navbar = () => {
               <div className="flex items-center gap-[8px]">
                 <span className="font-sans font-semibold text-[#8a8a8a] text-[13px] leading-none">Email us:</span>
                 <div className="flex flex-col items-center group cursor-pointer relative">
-                  <span className="font-sans font-semibold text-[13px] text-white leading-tight group-hover:text-[#ceae5a] transition-colors whitespace-nowrap pb-[1px]">
+                  <span className="font-sans font-semibold text-[13px] text-[#151515] leading-tight group-hover:text-[#ceae5a] transition-colors whitespace-nowrap pb-[1px]">
                     info@edg-gp.com
                   </span>
                   <div className="bg-[#ceae5a] h-px w-full absolute bottom-0" />
@@ -223,7 +223,7 @@ export const Navbar = () => {
             <button
               type="button"
               aria-label="Toggle navigation"
-              className="flex h-10 w-10 items-center justify-center rounded-md border border-white/30 text-white lg:hidden"
+              className="flex h-10 w-10 items-center justify-center rounded-md border border-[#151515]/25 text-[#151515] lg:hidden"
               onClick={() => setIsMobileOpen((open) => !open)}
             >
               <div className="flex flex-col gap-1.5">
@@ -260,12 +260,12 @@ export const Navbar = () => {
                   <Link
                     to={item.path}
                     onClick={closeMobileMenu}
-                    className={`font-sans font-medium text-[16px] py-3 tracking-wide border-b border-white/10 ${
+                    className={`font-sans font-medium text-[16px] py-3 tracking-wide border-b border-[#151515]/10 ${
                       location.pathname === item.path ||
                       (item.name === "About Us" && location.pathname.startsWith("/about")) ||
                       (item.name === "Business Sectors" && location.pathname.startsWith("/services"))
-                        ? "text-white"
-                        : "text-white/90"
+                        ? "text-[#151515]"
+                        : "text-[#151515]/90"
                     }`}
                   >
                     {item.name}
@@ -277,8 +277,8 @@ export const Navbar = () => {
                           key={subItem.name}
                           to={subItem.path}
                           onClick={closeMobileMenu}
-                          className={`font-sans text-[15px] py-2.5 border-b border-white/10 ${
-                            location.pathname === subItem.path ? "text-[#CEAE5A]" : "text-white/70"
+                          className={`font-sans text-[15px] py-2.5 border-b border-[#151515]/10 ${
+                            location.pathname === subItem.path ? "text-[#CEAE5A]" : "text-[#151515]/70"
                           }`}
                         >
                           {subItem.name}
@@ -289,13 +289,13 @@ export const Navbar = () => {
                 </div>
               ))}
               <div className="flex flex-col gap-3 mt-4 pt-4 border-t border-[#151515]/10">
-                <a href="tel:+97145548286" className="font-sans text-[14px] text-white/80">
-                  <span className="text-white/60">Call us: </span>
-                  <span className="text-white">(+971) 45548286</span>
+                <a href="tel:+97145548286" className="font-sans text-[14px] text-[#151515]/80">
+                  <span className="text-[#151515]/60">Call us: </span>
+                  <span className="text-[#151515]">(+971) 45548286</span>
                 </a>
-                <a href="mailto:info@edg-gp.com" className="font-sans text-[14px] text-white/80">
-                  <span className="text-white/60">Email: </span>
-                  <span className="text-white">info@edg-gp.com</span>
+                <a href="mailto:info@edg-gp.com" className="font-sans text-[14px] text-[#151515]/80">
+                  <span className="text-[#151515]/60">Email: </span>
+                  <span className="text-[#151515]">info@edg-gp.com</span>
                 </a>
               </div>
               <Link to="/contact" onClick={closeMobileMenu} className="mt-4">
