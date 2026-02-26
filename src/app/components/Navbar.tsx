@@ -46,10 +46,9 @@ export const Navbar = () => {
     <motion.header
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      className={`relative w-full z-50 transition-all duration-300 border-b border-white/20 backdrop-blur-[20px] backdrop-saturate-[180%] shadow-[0_1px_0_0_rgba(255,255,255,0.08)_inset] ${
+      className={`header-glass w-full z-50 transition-all duration-300 ${
         isScrolled ? "py-2.5 shadow-lg shadow-black/15" : "py-4"
       }`}
-      style={{ WebkitBackdropFilter: "blur(20px) saturate(180%)" }}
     >
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[45px] flex items-center justify-between gap-4">
         
@@ -256,8 +255,7 @@ export const Navbar = () => {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="lg:hidden border-t border-white/20 backdrop-blur-[20px] backdrop-saturate-[180%] overflow-hidden"
-            style={{ WebkitBackdropFilter: "blur(20px) saturate(180%)" }}
+            className="lg:hidden header-glass-menu"
           >
             <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-6 flex flex-col gap-1">
               {navItems.map((item) => (
