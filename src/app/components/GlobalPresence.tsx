@@ -139,22 +139,6 @@ export const GlobalPresence = () => {
           ))}
         </div>
 
-        {/* Trading Corridors bar */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="rounded-[14px] border border-white/20 bg-white/10 px-8 py-6 flex flex-col sm:flex-row gap-6 sm:gap-0 items-start sm:items-center justify-between backdrop-blur-sm"
-        >
-          <div className="flex flex-col gap-1">
-            <span className="font-sans text-[11px] text-white/60 uppercase tracking-wider">Main Trading Corridors</span>
-            <span className="font-sans text-[15px] text-white">Africa → UAE → Asia &nbsp;·&nbsp; ME → Africa &nbsp;·&nbsp; UAE → Global Refineries</span>
-          </div>
-          <div className="flex flex-col gap-1 sm:text-right">
-            <span className="font-sans text-[11px] text-white/60 uppercase tracking-wider">Trade Coverage</span>
-            <span className="font-sans text-[15px] text-white">75+ Countries · Spot, Forward & Term Contracts</span>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

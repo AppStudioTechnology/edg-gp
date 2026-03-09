@@ -13,6 +13,7 @@ import { TradingCTASection } from "./components/TradingCTASection";
 import { ComplianceGovernance } from "./components/ComplianceGovernance";
 import { GlobalPresence } from "./components/GlobalPresence";
 import { InsightsUpdates } from "./components/InsightsUpdates";
+import { PartnerCTA } from "./components/PartnerCTA";
 import { WhoWeArePage } from "./pages/WhoWeArePage";
 import { CEOMessagePage } from "./pages/CEOMessagePage";
 import { BusinessApproachPage } from "./pages/BusinessApproachPage";
@@ -48,11 +49,12 @@ const HomePage = () => {
       <div className="relative overflow-hidden bg-black">
         <GoldTrading />
       </div>
-      <div id="operations">
-        <GlobalPresence />
-      </div>
       <div id="compliance">
         <ComplianceGovernance />
+        <PartnerCTA />
+      </div>
+      <div id="operations">
+        <GlobalPresence />
       </div>
       <div id="insights">
         <InsightsUpdates />
