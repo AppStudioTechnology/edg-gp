@@ -3,12 +3,16 @@ import { createHashRouter } from "react-router";
 import { Layout } from "./components/Layout";
 import { Hero } from "./components/Hero";
 import { Stats } from "./components/Stats";
+import { IntroSection } from "./components/IntroSection";
 import { VisionMission } from "./components/VisionMission";
 import { ChairmanMessage } from "./components/ChairmanMessage";
 import { EnergyDivision } from "./components/EnergyDivision";
 import { GoldTrading } from "./components/GoldTrading";
-import { OurClients } from "./components/OurClients";
 import { StrategicRegions } from "./components/StrategicRegions";
+import { TradingCTASection } from "./components/TradingCTASection";
+import { ComplianceGovernance } from "./components/ComplianceGovernance";
+import { GlobalPresence } from "./components/GlobalPresence";
+import { InsightsUpdates } from "./components/InsightsUpdates";
 import { WhoWeArePage } from "./pages/WhoWeArePage";
 import { CEOMessagePage } from "./pages/CEOMessagePage";
 import { BusinessApproachPage } from "./pages/BusinessApproachPage";
@@ -19,7 +23,7 @@ import { ContactPage } from "./pages/ContactPage";
 
 const HomePage = () => {
   useEffect(() => {
-    document.title = "EDG Gold & Petroleum – Bridging Markets, Fueling Prosperity";
+    document.title = "EDG Gold & Petroleum – International Commodity Trading Group";
   }, []);
 
   return (
@@ -31,6 +35,7 @@ const HomePage = () => {
         <Stats />
       </div>
       <div id="about-us">
+        <IntroSection />
         <VisionMission />
         <ChairmanMessage />
       </div>
@@ -38,11 +43,18 @@ const HomePage = () => {
         <EnergyDivision />
         <GoldTrading />
       </div>
-      <div id="partners">
-        <OurClients />
+      <div id="cta">
+        <TradingCTASection />
       </div>
       <div id="operations">
         <StrategicRegions />
+        <GlobalPresence />
+      </div>
+      <div id="compliance">
+        <ComplianceGovernance />
+      </div>
+      <div id="insights">
+        <InsightsUpdates />
       </div>
     </main>
   );

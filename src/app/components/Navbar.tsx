@@ -33,11 +33,13 @@ export const Navbar = () => {
       name: "Business Sectors",
       path: "/services/petroleum-products",
       dropdown: [
-        { name: "Petroleum Products", path: "/services/petroleum-products" },
+        { name: "Energy Trading", path: "/services/petroleum-products" },
         { name: "Precious Metals", path: "/services/gold-trading" },
+        { name: "Logistics", path: "/operations" },
       ],
     },
     { name: "Operations", path: "/operations" },
+    { name: "Contact", path: "/contact" },
   ];
 
   const closeMobileMenu = () => setIsMobileOpen(false);

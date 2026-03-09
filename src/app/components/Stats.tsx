@@ -49,28 +49,28 @@ export const Stats = () => {
       <div className="max-w-[1440px] mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[16px] lg:gap-[20px]">
           <StatCard
-            title="Years of experience"
-            value="30"
-            subtext="leaders in industrial manufacturing & technology"
+            title="Trading Experience"
+            value="30+"
+            subtext="Years establishing a strong footprint across key energy and commodities markets globally"
             isDark={true}
             iconPath={svgPaths.p270f2a00}
           />
           <StatCard
-            title="Global locations"
-            value="75"
-            subtext="countries where the Group has built at least one project"
+            title="Global Reach"
+            value="75+"
+            subtext="Countries and markets served across the Middle East, Africa, and Asia through our trading corridors"
             iconPath={svgPaths.p2efe3f00}
           />
           <StatCard
-            title="Total employee"
-            value="1.2K"
-            subtext="direct and indirect employees working on our projects"
+            title="Trading Volume"
+            value="$1B+"
+            subtext="Annual commodity trading volume across energy products and precious metals"
             iconPath={svgPaths.p2134d800}
           />
           <StatCard
-            title="Annual revenue"
-            value="15B"
-            subtext="total project value of all time across the globe"
+            title="Product Portfolio"
+            value="10+"
+            subtext="Refined energy products and precious metals actively traded across international markets"
             iconPath={svgPaths.p18c43880}
           />
         </div>

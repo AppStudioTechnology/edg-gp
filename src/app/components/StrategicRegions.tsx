@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import imgValuesMetron2 from "@/assets/c09daf8815cbf8141d45e5907ad2d5e544327ae8.png";
 
 export const StrategicRegions = () => {
-  const regions = ["Middle East", "Africa"];
+  const regions = ["Middle East", "Africa", "Asia"];
 
   return (
     <section className="relative min-h-[500px] lg:min-h-[560px] flex items-center overflow-hidden py-[60px] lg:py-[72px]">
@@ -82,7 +82,7 @@ export const StrategicRegions = () => {
             </h2>
 
             <p className="font-sans font-normal text-[15px] lg:text-[16px] text-white leading-[1.65] lg:leading-[24px]">
-              At EDG Gold & Petroleum, the Middle East and Africa (MEA) are more than just markets—they are the beating heart of our business operations and a cornerstone of our long-term growth strategy. These regions offer a unique blend of natural wealth, industrial demand, and strategic geographic positioning that aligns perfectly with our core competencies in petroleum and precious metals trading.
+              EDG's operational footprint spans three of the world's most dynamic trading corridors — the Middle East, Africa, and Asia. These are not just markets; they are the backbone of our supply and sourcing network, the destinations of our trading flows, and the regions where we have built lasting institutional relationships over decades. From government supply contracts in Sub-Saharan Africa to bullion distribution across Asia-Pacific, we operate with local expertise and global standards.
             </p>
           </motion.div>
         </div>

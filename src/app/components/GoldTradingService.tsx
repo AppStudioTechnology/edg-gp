@@ -8,24 +8,28 @@ import imgContracts from "@/assets/8ac20d50fa332151e458b292c0046936a5f0b2f6.png"
 
 const services = [
   {
-    title: "Ethical sourcing from verified mining operations",
+    title: "Gold Dore — Raw gold sourced from verified mines across Africa and Asia",
     image: imgSourcing,
-    badge: "Sourcing"
+    badge: "Gold Dore",
+    desc: "We source Gold Dore bars directly from licensed and verified mining operations, with full chain-of-custody documentation and compliance with OECD responsible sourcing guidelines."
   },
   {
-    title: "Secure transport and aggregation of raw and refined gold",
+    title: "Refined Gold — Investment-grade .9999 fine gold for institutional clients",
     image: imgTransport,
-    badge: "Logistics"
+    badge: "Refined Gold",
+    desc: "Refined gold in LBMA good delivery bar format, supplied to central banks, financial institutions, and commercial refineries. Full assay certification and provenance documentation included."
   },
   {
-    title: "Bullion partnerships for bullion conversion",
+    title: "Bullion Trading — Physical and paper gold for treasury and investment mandates",
     image: imgPartnerships,
-    badge: "Partnerships"
+    badge: "Bullion Trading",
+    desc: "We facilitate physical bullion transactions and provide access to spot, forward, and structured contracts for treasuries, funds, and private investors seeking exposure to gold markets."
   },
   {
-    title: "Spot and forward contracts for precious metals",
+    title: "End-to-End Logistics — Secure aggregation, transport, and vault delivery",
     image: imgContracts,
-    badge: "Refining"
+    badge: "Logistics",
+    desc: "Our precious metals logistics network covers secure aggregation at origin, armoured transport, international shipping, insurance, and final delivery to approved vault facilities worldwide."
   }
 ];
 
@@ -36,12 +40,12 @@ export const GoldTradingService = () => {
         {/* Header */}
         <div className="flex flex-col lg:flex-row justify-between gap-8 mb-[60px] lg:mb-[80px]">
           <h2 className="font-sans font-extralight text-[28px] lg:text-[36px] text-black leading-[1.1] tracking-[-1px]">
-            Gold Trading Service
+            Precious Metals Products<br />& Services
           </h2>
           
           <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-12 flex-1 lg:max-w-[1000px]">
             <p className="font-sans text-[17px] lg:text-[19px] text-[#555] leading-relaxed border-l-2 border-[#ceae5a] pl-8">
-              The division's core focus is on sourcing high-quality precious metals from reliable partners across major global mines, and distributing them to leading refineries and financial institutions worldwide. We handle both raw gold (dore) and refined investment-grade bullion, ensuring transparency and market-leading efficiency in every transaction.
+              EDG's precious metals division handles the full spectrum of the gold value chain — from sourcing raw Gold Dore at origin, through to refined investment-grade bullion distribution for institutional and commercial clients worldwide. Every transaction is underpinned by AML compliance, responsible sourcing protocols, and transparent documentation.
             </p>
             
             <div className="flex gap-2 shrink-0 self-end lg:self-center">
@@ -70,17 +74,22 @@ export const GoldTradingService = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10" />
               
               <div className="absolute inset-0 z-20 p-5 sm:p-8 lg:p-[45px] flex flex-col justify-end">
-                <div className="mb-6">
-                  <span className="font-sans text-[12px] uppercase tracking-widest text-[#ceae5a] font-bold">
+                <div className="mb-4">
+                  <span className="font-sans text-[11px] uppercase tracking-widest text-[#ceae5a] font-semibold border border-[#ceae5a]/40 px-2 py-0.5 rounded-full">
                     {service.badge}
                   </span>
-                  <h3 className="font-sans font-bold text-[16px] lg:text-[18px] text-white mt-4 leading-tight">
+                  <h3 className="font-sans font-semibold text-[15px] lg:text-[17px] text-white mt-4 leading-snug">
                     {service.title}
                   </h3>
+                  {'desc' in service && (
+                    <p className="font-sans text-[13px] text-white/70 mt-2 leading-relaxed line-clamp-3">
+                      {service.desc}
+                    </p>
+                  )}
                 </div>
                 
-                <div className="pt-6 border-t border-white/20 flex items-center justify-between group/btn">
-                  <span className="font-sans font-bold text-[14px] text-white uppercase tracking-wider">
+                <div className="pt-5 border-t border-white/20 flex items-center justify-between group/btn">
+                  <span className="font-sans font-semibold text-[13px] text-white uppercase tracking-wider">
                     Learn More
                   </span>
                   <div className="w-[30px] h-[30px] rounded-full bg-[#ceae5a] flex items-center justify-center group-hover/btn:scale-110 transition-transform">

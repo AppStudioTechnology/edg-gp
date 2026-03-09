@@ -60,11 +60,20 @@ export const GoldTrading = () => {
 
             <div className="flex flex-col gap-4 max-w-[760px]">
               <p className="font-sans font-normal text-[15px] lg:text-[16px] text-white leading-[1.65] lg:leading-[24px]">
-                In parallel with our energy operations, EDG Gold is a trusted player in the global gold and precious metals trade. We provide end-to-end gold trading services—from sourcing and aggregation to final distribution—ensuring full traceability, compliance, and security at every step.
+                EDG's precious metals division is a trusted global player in the sourcing, aggregation, and distribution of gold and precious metals. We handle the full value chain — from raw Gold Dore sourced from verified mining operations across Africa and Asia, through to refined gold bullion traded with leading financial institutions and refineries worldwide.
               </p>
               <p className="font-sans font-normal text-[15px] lg:text-[16px] text-white leading-[1.65] lg:leading-[24px]">
-                We support our clients with access to physical gold and custom trading solutions that align with investment, treasury, or commercial goals. Our approach blends traditional values of trust with modern trading platforms and data-driven decision-making.
+                Our product range spans Gold Dore, Refined Investment-Grade Gold, and Bullion Trading, all governed by strict AML compliance, responsible sourcing protocols, and full chain-of-custody documentation. We provide bespoke trading solutions for governments, central banks, and commercial clients.
               </p>
+            </div>
+
+            {/* Product tags */}
+            <div className="flex flex-wrap gap-2 pt-2">
+              {["Gold Dore", "Refined Gold", "Bullion Trading"].map((p) => (
+                <span key={p} className="border border-[#ceae5a]/40 text-[#ceae5a] text-[11px] font-sans font-medium px-3 py-1 rounded-full">
+                  {p}
+                </span>
+              ))}
             </div>
           </div>
 

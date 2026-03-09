@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "motion/react";
+import { Link } from "react-router";
 import imgHeroHeader from "@/assets/8fefd188229e3a9ca69fac13417d3ec9eba5d830.png";
 
 export const Hero = () => {
   return (
-    <section className="relative h-[500px] md:h-[600px] lg:h-[680px] overflow-hidden flex items-center">
+    <section className="relative min-h-[600px] md:min-h-[680px] lg:min-h-[760px] overflow-hidden flex items-center">
       <div className="absolute inset-0 z-0">
         <motion.div
           initial={{ scale: 1.1 }}
@@ -18,32 +19,80 @@ export const Hero = () => {
             className="absolute max-w-none object-cover size-full"
           />
         </motion.div>
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/30" />
       </div>
 
-      <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px] pt-[96px] md:pt-[104px]">
+      <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px] pt-[96px] md:pt-[104px] pb-16">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
-          className="flex flex-col gap-[24px] md:gap-[32px] max-w-[800px]"
+          className="flex flex-col gap-[28px] md:gap-[36px] max-w-[860px]"
         >
-          <h1 className="text-white text-[42px] sm:text-[52px] md:text-[62px] lg:text-[76px] font-extralight leading-[1.05] tracking-[-1.2px] font-sans">
-            Bridging markets,<br />
-            Fueling prosperity
+          {/* Label */}
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex items-center gap-3"
+          >
+            <div className="h-px w-8 bg-[#ceae5a]" />
+            <span className="font-sans text-[12px] font-medium tracking-[2px] uppercase text-[#ceae5a]">
+              International Commodity Trading Group
+            </span>
+          </motion.div>
+
+          <h1 className="text-white text-[40px] sm:text-[52px] md:text-[62px] lg:text-[76px] font-extralight leading-[1.05] tracking-[-1.2px] font-sans">
+            Bridging Markets,<br />
+            Fueling Prosperity
           </h1>
 
-          <p className="text-white/80 text-[15px] md:text-[16px] lg:text-[17px] leading-[1.65] font-normal font-sans max-w-[640px]">
-            At EDG Gold & Petroleum, we create lasting value through responsible global trade, building trust across energy and precious metals markets from the UAE to the Middle East and Africa.
+          <p className="text-white/80 text-[15px] md:text-[16px] lg:text-[18px] leading-[1.7] font-normal font-sans max-w-[680px]">
+            EDG Gold & Petroleum is a UAE-based global trading platform operating across energy and precious metals markets. Over the past three decades, we have built a strong footprint across key energy and commodities corridors in the Middle East, Africa, and Asia — delivering reliability, compliance, and sustainable value to governments, institutions, and corporations worldwide.
           </p>
 
-          <motion.button
-            whileHover={{ scale: 1.02, backgroundColor: "#967a3f" }}
-            whileTap={{ scale: 0.98 }}
-            className="bg-[#A98C49] text-white px-[28px] py-[12px] rounded-[12px] font-medium text-[14px] font-sans transition-all w-fit hover:bg-[#967a3f]"
+          {/* 3 CTAs */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9, delay: 0.5 }}
+            className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 pt-2"
           >
-            Explore Our Resources
-          </motion.button>
+            <Link to="/contact">
+              <button className="bg-[#A98C49] hover:bg-[#967a3f] text-white px-6 py-3 rounded-[12px] font-sans font-medium text-[14px] transition-all active:scale-95 whitespace-nowrap">
+                Request Supply Offer
+              </button>
+            </Link>
+            <Link to="/contact">
+              <button className="border border-white/40 hover:border-white text-white px-6 py-3 rounded-[12px] font-sans font-medium text-[14px] transition-all hover:bg-white/10 active:scale-95 whitespace-nowrap">
+                Submit Trading Inquiry
+              </button>
+            </Link>
+            <Link to="/contact">
+              <button className="border border-[#ceae5a]/50 hover:border-[#ceae5a] text-[#ceae5a] px-6 py-3 rounded-[12px] font-sans font-medium text-[14px] transition-all hover:bg-[#ceae5a]/10 active:scale-95 whitespace-nowrap">
+                Become a Strategic Partner
+              </button>
+            </Link>
+          </motion.div>
+
+          {/* Quick highlights */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.8 }}
+            className="flex flex-wrap gap-x-8 gap-y-3 pt-4 border-t border-white/10"
+          >
+            {[
+              { label: "Energy Trading", sub: "EN590 · Jet A1 · LPG · LNG" },
+              { label: "Precious Metals", sub: "Gold Dore · Bullion · Refined" },
+              { label: "Regions", sub: "ME · Africa · Asia" },
+            ].map((item) => (
+              <div key={item.label} className="flex flex-col gap-0.5">
+                <span className="font-sans text-[12px] font-semibold text-[#ceae5a] uppercase tracking-wide">{item.label}</span>
+                <span className="font-sans text-[12px] text-white/60">{item.sub}</span>
+              </div>
+            ))}
+          </motion.div>
         </motion.div>
       </div>
     </section>

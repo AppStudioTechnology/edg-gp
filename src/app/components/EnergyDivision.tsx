@@ -3,7 +3,15 @@ import { motion } from "motion/react";
 import refineryImg from "@/assets/7d6efaa958460cabdaf35603cb1f6b6f408a939a.png";
 
 export const EnergyDivision = () => {
-  const products = ["Fuel Oil", "Gas Oil", "Gasoil (D2)", "Gasoline (Mogas)"];
+  const products = [
+    "EN590 Diesel",
+    "Gasoline (RON 91 / RON 95)",
+    "Jet A1",
+    "Fuel Oil",
+    "Bitumen",
+    "LPG",
+    "LNG",
+  ];
 
   return (
     <section className="relative w-full overflow-hidden h-auto lg:h-[540px] flex items-center pt-[60px] pb-[48px] lg:pt-[72px] lg:pb-[56px]">
@@ -78,7 +86,7 @@ export const EnergyDivision = () => {
               Petroleum Trading Excellence
             </h2>
             <p className="font-sans font-normal text-[15px] lg:text-[16px] text-white leading-[1.65] lg:leading-[24px]">
-              We supply a wide range of refined oil products tailored to meet the evolving needs of government agencies, public institutions, and private corporations. Our operational strength lies in our ability to offer reliable, on-time delivery with competitive pricing and full compliance with international quality standards.
+              EDG's energy trading division is a full-spectrum refined petroleum products supplier operating across key markets in the Middle East, Africa, and Asia. We serve governments, national oil companies, private corporations, and industrial operators with a complete portfolio of energy commodities — from transportation fuels to industrial and infrastructure-grade products — all delivered with strict compliance, verifiable sourcing, and competitive terms.
             </p>
           </motion.div>
         </div>
