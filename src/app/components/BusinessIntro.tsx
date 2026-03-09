@@ -13,10 +13,6 @@ export const BusinessIntro = () => {
     "Financing for small to medium-scale mining projects in Africa and selected Asian markets.",
     "Strategic partnerships with gold refineries and crude oil refineries",
     "Alternative energy models and renewable energy project support",
-    "Logistics solutions including shipping, unloading, and transport services",
-    "Storage solutions with large-scale, strategically located facilities",
-    "Supply and support services for companies and institutions requiring regular deliveries of petroleum products, supported by logistics, storage, and hedging solutions",
-    "Inventory management and risk control for clients using both large and small volumes (retail and wholesale markets)"
   ];
 
   return (
