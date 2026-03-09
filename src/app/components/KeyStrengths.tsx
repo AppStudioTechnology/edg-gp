@@ -84,7 +84,7 @@ export const KeyStrengths = () => {
                 className="bg-white rounded-[12px] p-5 lg:p-6 border border-[#f0f0f0] shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-[0_4px_20px_rgba(0,0,0,0.06)] hover:border-[#e8e8e8] transition-all duration-300"
               >
                 <div className="flex items-start justify-between mb-4">
-                  <div className="w-[48px] h-[48px] rounded-full bg-[#7CC03F] flex items-center justify-center text-white shrink-0">
+                  <div className="w-[48px] h-[48px] rounded-full bg-[#ceae5a] flex items-center justify-center text-white shrink-0">
                     <IconComponent className="size-6" strokeWidth={2} />
                   </div>
                   <span className="font-sans font-normal text-[13px] text-[#8c8c8c]">

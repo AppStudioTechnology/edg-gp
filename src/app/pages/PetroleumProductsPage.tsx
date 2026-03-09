@@ -5,7 +5,6 @@ import { PetroleumProducts } from "../components/PetroleumProducts";
 import { PetroleumPortfolio } from "../components/PetroleumPortfolio";
 import { PetroleumCapabilities } from "../components/PetroleumCapabilities";
 import { PetroleumMarkets } from "../components/PetroleumMarkets";
-import { OurClients } from "../components/OurClients";
 import { CTABanner } from "../components/CTABanner";
 
 export const PetroleumProductsPage = () => {
@@ -22,7 +21,6 @@ export const PetroleumProductsPage = () => {
       <PetroleumPortfolio />
       <PetroleumCapabilities />
       <PetroleumMarkets />
-      <OurClients />
       <CTABanner />
     </main>
   );
