@@ -83,13 +83,13 @@ export const WhatsAppButton = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -6 }}
             transition={{ duration: 0.35 }}
-            className="flex items-center gap-2 bg-white rounded-full px-3.5 py-1.5 shadow-[0_2px_12px_rgba(0,0,0,0.12)] border border-[#f0f0f0] pointer-events-none"
+            className="relative flex items-center gap-2 bg-white rounded-full px-3.5 py-1.5 shadow-[0_2px_12px_rgba(0,0,0,0.12)] border border-[#f0f0f0] pointer-events-none"
           >
             <span className="font-sans text-[12px] font-medium text-[#151515] whitespace-nowrap">
               {options[activeIndex].label}
             </span>
-            {/* small triangle pointing down */}
-            <span className="absolute -bottom-[6px] right-[22px] w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[6px] border-t-white" />
+            {/* triangle pointing down toward the button */}
+            <span className="absolute -bottom-[7px] right-4 w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[7px] border-t-white drop-shadow-sm" />
           </motion.div>
         )}
       </AnimatePresence>
