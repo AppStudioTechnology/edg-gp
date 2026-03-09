@@ -5,7 +5,7 @@ import imgRectangle1 from "@/assets/b25bf13818fd4a847b2b7fc565076139896fafc8.png
 
 export const GoldTrading = () => {
   return (
-    <section className="relative w-full overflow-hidden h-auto lg:h-[540px] flex items-end pt-[48px] pb-[60px] lg:pt-[56px] lg:pb-[72px] mt-10 sm:mt-14 lg:mt-0 lg:-mt-[96px]">
+    <section className="relative w-full overflow-hidden h-auto lg:h-[700px] flex items-end pt-[80px] pb-[80px] lg:pt-[80px] lg:pb-[100px]">
       <div className="absolute inset-0 z-0">
         <motion.div
           initial={{ scale: 1.05 }}

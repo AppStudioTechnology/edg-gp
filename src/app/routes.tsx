@@ -8,7 +8,7 @@ import { VisionMission } from "./components/VisionMission";
 import { ChairmanMessage } from "./components/ChairmanMessage";
 import { EnergyDivision } from "./components/EnergyDivision";
 import { GoldTrading } from "./components/GoldTrading";
-import { StrategicRegions } from "./components/StrategicRegions";
+
 import { TradingCTASection } from "./components/TradingCTASection";
 import { ComplianceGovernance } from "./components/ComplianceGovernance";
 import { GlobalPresence } from "./components/GlobalPresence";
@@ -49,7 +49,6 @@ const HomePage = () => {
         <GoldTrading />
       </div>
       <div id="operations">
-        <StrategicRegions />
         <GlobalPresence />
       </div>
       <div id="compliance">

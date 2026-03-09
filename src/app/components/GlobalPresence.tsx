@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
+import imgEarthNight from "@/assets/c09daf8815cbf8141d45e5907ad2d5e544327ae8.png";
 
 const regions = [
   {
@@ -48,8 +49,25 @@ const regions = [
 
 export const GlobalPresence = () => {
   return (
-    <section className="bg-[#080808] py-[72px] lg:py-[100px] px-4 sm:px-6 lg:px-[45px] overflow-hidden">
-      <div className="max-w-[1440px] mx-auto flex flex-col gap-[64px]">
+    <section className="relative py-[72px] lg:py-[100px] px-4 sm:px-6 lg:px-[45px] overflow-hidden">
+      {/* Background: night earth */}
+      <div className="absolute inset-0 z-0">
+        <motion.div
+          initial={{ scale: 1.05 }}
+          whileInView={{ scale: 1 }}
+          transition={{ duration: 20, ease: "linear" }}
+          className="absolute inset-0"
+        >
+          <img
+            src={imgEarthNight}
+            alt="Earth at night"
+            className="absolute max-w-none object-cover size-full"
+            style={{ width: "181.89%" }}
+          />
+        </motion.div>
+        <div className="absolute inset-0 bg-black/70" />
+      </div>
+      <div className="relative z-10 max-w-[1440px] mx-auto flex flex-col gap-[64px]">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 24 }}

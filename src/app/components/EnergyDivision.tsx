@@ -15,7 +15,7 @@ const products = [
 
 export const EnergyDivision = () => {
   return (
-    <section className="relative w-full overflow-hidden h-auto lg:h-[540px] flex items-end pt-[60px] pb-[60px] lg:pt-[56px] lg:pb-[72px]">
+    <section className="relative w-full overflow-hidden h-auto lg:h-[700px] flex items-end pt-[80px] pb-[80px] lg:pt-[80px] lg:pb-[100px]">
       <div className="absolute inset-0 z-0">
         <motion.div
           initial={{ scale: 1.05 }}
