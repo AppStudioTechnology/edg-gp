@@ -4,7 +4,7 @@ import svgPaths from "../../imports/svg-ixy99k2xf7";
 
 export const CEOMessageContent = () => {
   return (
-    <section className="bg-white py-[56px] lg:py-[72px] px-6 sm:px-8 lg:px-[80px] overflow-hidden">
+    <section className="bg-white py-[56px] lg:py-[72px] px-6 sm:px-6 lg:px-[45px] overflow-hidden">
       <div className="w-full max-w-[1440px] mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

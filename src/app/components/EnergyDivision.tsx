@@ -49,7 +49,7 @@ export const EnergyDivision = () => {
         <img src={imgRectangle1} alt="" className="absolute max-w-none object-cover size-full" />
       </div>
 
-      <div className="relative z-20 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px]">
+      <div className="relative z-20 w-full max-w-[1440px] mx-auto px-6 sm:px-6 lg:px-[45px]">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -22,7 +22,7 @@ export const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-black/30" />
       </div>
 
-      <div className="relative z-10 w-full max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-[80px] pt-[96px] md:pt-[104px] pb-16">
+      <div className="relative z-10 w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[45px] pt-[96px] md:pt-[104px] pb-16">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
