@@ -130,11 +130,6 @@ export const GlobalPresence = () => {
                 ))}
               </ul>
 
-              {/* Products */}
-              <div className="pt-4 border-t border-white/20">
-                <p className="font-sans text-[11px] text-white/50 uppercase tracking-wider mb-1.5">Key Products</p>
-                <p className="font-sans text-[13px] text-white/85">{region.products}</p>
-              </div>
             </motion.div>
           ))}
         </div>

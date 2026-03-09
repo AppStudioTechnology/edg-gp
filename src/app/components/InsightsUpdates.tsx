@@ -84,11 +84,6 @@ export const InsightsUpdates = () => {
                   {item.excerpt}
                 </p>
               </div>
-
-              <div className="flex items-center gap-2 font-sans text-[13px] font-medium text-[#A98C49] group-hover:gap-3 transition-all">
-                Read More
-                <ArrowRight className="size-3.5" />
-              </div>
             </motion.div>
           ))}
         </div>
