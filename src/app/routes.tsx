@@ -41,10 +41,12 @@ const HomePage = () => {
       </div>
       <div id="services" className="relative overflow-hidden bg-black">
         <EnergyDivision />
-        <GoldTrading />
       </div>
       <div id="cta">
         <TradingCTASection />
+      </div>
+      <div className="relative overflow-hidden bg-black">
+        <GoldTrading />
       </div>
       <div id="operations">
         <StrategicRegions />
