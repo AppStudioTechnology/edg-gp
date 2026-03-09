@@ -65,7 +65,7 @@ export const GlobalPresence = () => {
             style={{ width: "181.89%" }}
           />
         </motion.div>
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/82" />
       </div>
       <div className="relative z-10 max-w-[1440px] mx-auto flex flex-col gap-[64px]">
         {/* Header */}
@@ -87,7 +87,7 @@ export const GlobalPresence = () => {
               Three Continents
             </h2>
           </div>
-          <p className="font-sans text-[15px] lg:text-[17px] text-white/55 leading-[1.7] max-w-[520px]">
+          <p className="font-sans text-[15px] lg:text-[17px] text-white/80 leading-[1.7] max-w-[520px]">
             EDG has built a structured presence across the Middle East, Africa, and Asia — key corridors that represent the world's most active energy and precious metals trading routes.
           </p>
         </motion.div>
@@ -101,11 +101,11 @@ export const GlobalPresence = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.12 }}
-              className="flex flex-col gap-6 p-8 rounded-[16px] border border-white/8 bg-white/[0.03] hover:border-[#ceae5a]/30 hover:bg-white/[0.05] transition-all duration-300 group"
+              className="flex flex-col gap-6 p-8 rounded-[16px] border border-white/20 bg-white/10 hover:border-[#ceae5a]/60 hover:bg-white/15 transition-all duration-300 group backdrop-blur-sm"
             >
               {/* Number + Region */}
               <div className="flex items-start justify-between">
-                <span className="font-sans text-[48px] font-extralight text-white/8 leading-none">
+                <span className="font-sans text-[48px] font-extralight text-white/20 leading-none">
                   {region.number}
                 </span>
                 <div className="px-3 py-1 rounded-full border border-[#ceae5a]/30 bg-[#ceae5a]/10">
@@ -125,15 +125,15 @@ export const GlobalPresence = () => {
                 {region.details.map((d) => (
                   <li key={d} className="flex items-start gap-2.5">
                     <div className="w-1 h-1 rounded-full bg-[#ceae5a] mt-[7px] shrink-0" />
-                    <span className="font-sans text-[13px] text-white/60 leading-[1.5]">{d}</span>
+                    <span className="font-sans text-[13px] text-white/85 leading-[1.5]">{d}</span>
                   </li>
                 ))}
               </ul>
 
               {/* Products */}
-              <div className="pt-4 border-t border-white/8">
-                <p className="font-sans text-[11px] text-white/30 uppercase tracking-wider mb-1.5">Key Products</p>
-                <p className="font-sans text-[13px] text-white/60">{region.products}</p>
+              <div className="pt-4 border-t border-white/20">
+                <p className="font-sans text-[11px] text-white/50 uppercase tracking-wider mb-1.5">Key Products</p>
+                <p className="font-sans text-[13px] text-white/85">{region.products}</p>
               </div>
             </motion.div>
           ))}
@@ -144,15 +144,15 @@ export const GlobalPresence = () => {
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="rounded-[14px] border border-white/8 bg-white/[0.03] px-8 py-6 flex flex-col sm:flex-row gap-6 sm:gap-0 items-start sm:items-center justify-between"
+          className="rounded-[14px] border border-white/20 bg-white/10 px-8 py-6 flex flex-col sm:flex-row gap-6 sm:gap-0 items-start sm:items-center justify-between backdrop-blur-sm"
         >
           <div className="flex flex-col gap-1">
-            <span className="font-sans text-[11px] text-white/30 uppercase tracking-wider">Main Trading Corridors</span>
-            <span className="font-sans text-[15px] text-white/80">Africa → UAE → Asia &nbsp;·&nbsp; ME → Africa &nbsp;·&nbsp; UAE → Global Refineries</span>
+            <span className="font-sans text-[11px] text-white/60 uppercase tracking-wider">Main Trading Corridors</span>
+            <span className="font-sans text-[15px] text-white">Africa → UAE → Asia &nbsp;·&nbsp; ME → Africa &nbsp;·&nbsp; UAE → Global Refineries</span>
           </div>
           <div className="flex flex-col gap-1 sm:text-right">
-            <span className="font-sans text-[11px] text-white/30 uppercase tracking-wider">Trade Coverage</span>
-            <span className="font-sans text-[15px] text-white/80">75+ Countries · Spot, Forward & Term Contracts</span>
+            <span className="font-sans text-[11px] text-white/60 uppercase tracking-wider">Trade Coverage</span>
+            <span className="font-sans text-[15px] text-white">75+ Countries · Spot, Forward & Term Contracts</span>
           </div>
         </motion.div>
       </div>
