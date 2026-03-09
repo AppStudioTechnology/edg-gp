@@ -27,34 +27,17 @@ export const ContactFormSection = () => {
             </motion.h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 gap-x-8">
-              {/* Addresses */}
               <div className="flex flex-col gap-4">
-                <span className="text-[#8C8C8C] text-[16px] font-sans">Visit us</span>
-                <p className="text-black text-[16px] sm:text-[19px] font-sans leading-[1.5]">
-                  DMCC Business Centre, Level No 1 Jewellery & Gemplex 3, Dubai - UAE
-                </p>
+                <span className="text-[#8C8C8C] text-[16px] font-sans">Phone</span>
+                <a href="tel:+97145548286" className="text-black text-[16px] sm:text-[19px] font-sans hover:text-[#A98C49] transition-colors">
+                  +971 45548286
+                </a>
               </div>
               <div className="flex flex-col gap-4">
-                <span className="text-[#8C8C8C] text-[16px] font-sans">Visit us</span>
-                <p className="text-black text-[16px] sm:text-[19px] font-sans leading-[1.5]">
-                  Prism Tower, Business Bay,<br />Office 3006, Dubai, UAE
-                </p>
-              </div>
-
-              {/* Contact details */}
-              <div className="flex flex-col gap-4">
-                <span className="text-[#8C8C8C] text-[16px] font-sans">How can we help?</span>
-                <div className="text-black text-[16px] sm:text-[19px] font-sans flex flex-col gap-1">
-                  <p>Phone: (+971) 45548286</p>
-                  <p>Mobile: (+971) 503541413</p>
-                  <p>Fax: (+971) 503541413</p>
-                </div>
-              </div>
-              <div className="flex flex-col gap-4">
-                <span className="text-[#8C8C8C] text-[16px] font-sans">Email us</span>
-                <p className="text-black text-[16px] sm:text-[19px] font-sans">
+                <span className="text-[#8C8C8C] text-[16px] font-sans">Email</span>
+                <a href="mailto:info@edg-gp.com" className="text-black text-[16px] sm:text-[19px] font-sans hover:text-[#A98C49] transition-colors">
                   info@edg-gp.com
-                </p>
+                </a>
               </div>
             </div>
           </div>

@@ -69,7 +69,6 @@ export const Footer = () => {
           <div className="flex flex-col gap-[20px]">
             <h4 className="text-[13px] font-semibold text-white/90 tracking-[0.2em] uppercase font-sans">Contact Info</h4>
             <div className="flex flex-col gap-[12px] text-white/70 font-sans text-[14px] leading-[26px]">
-              <p>DMCC Business Centre, Level No 1 Jewellery & Gemplex 3, Dubai - UAE</p>
               <div className="flex flex-col gap-[12px]">
                 <div className="flex items-center gap-[12px]">
                   <div className="w-6 h-6 flex items-center justify-center">
@@ -78,7 +77,7 @@ export const Footer = () => {
                       <path d={svgPaths.p3e444ce0} stroke="#CEAE5A" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </div>
-                  <span className="hover:text-[#CEAE5A] transition-colors cursor-pointer">+(1) 1230 452 8759</span>
+                  <a href="tel:+97145548286" className="hover:text-[#CEAE5A] transition-colors cursor-pointer">+971 45548286</a>
                 </div>
                 <div className="flex items-center gap-[12px]">
                   <div className="w-6 h-6 flex items-center justify-center">
@@ -88,7 +87,7 @@ export const Footer = () => {
                       <path d={svgPaths.p22ce3880} stroke="#CEAE5A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </div>
-                  <span className="hover:text-[#CEAE5A] transition-colors cursor-pointer">synox@mail.com</span>
+                  <a href="mailto:info@edg-gp.com" className="hover:text-[#CEAE5A] transition-colors cursor-pointer">info@edg-gp.com</a>
                 </div>
               </div>
             </div>
