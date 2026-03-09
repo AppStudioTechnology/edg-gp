@@ -47,11 +47,11 @@ export const Hero = () => {
             Fueling Prosperity
           </h1>
 
-          <p className="text-white/80 text-[15px] md:text-[16px] lg:text-[18px] leading-[1.7] font-normal font-sans max-w-[680px]">
-            EDG Gold & Petroleum is a UAE-based global trading platform operating across energy and precious metals markets. Over the past three decades, we have built a strong footprint across key energy and commodities corridors in the Middle East, Africa, and Asia — delivering reliability, compliance, and sustainable value to governments, institutions, and corporations worldwide.
+          <p className="text-white/80 text-[15px] md:text-[16px] lg:text-[18px] leading-[1.7] font-normal font-sans max-w-[640px]">
+            EDG Gold & Petroleum is a global trading platform operating across energy and precious metals markets — delivering reliability, compliance, and sustainable value to governments, institutions, and corporations worldwide.
           </p>
 
-          {/* 3 CTAs */}
+          {/* 2 CTAs */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -64,34 +64,10 @@ export const Hero = () => {
               </button>
             </Link>
             <Link to="/contact">
-              <button className="border border-white/40 hover:border-white text-white px-6 py-3 rounded-[12px] font-sans font-medium text-[14px] transition-all hover:bg-white/10 active:scale-95 whitespace-nowrap">
-                Submit Trading Inquiry
-              </button>
-            </Link>
-            <Link to="/contact">
               <button className="border border-[#ceae5a]/50 hover:border-[#ceae5a] text-[#ceae5a] px-6 py-3 rounded-[12px] font-sans font-medium text-[14px] transition-all hover:bg-[#ceae5a]/10 active:scale-95 whitespace-nowrap">
                 Become a Strategic Partner
               </button>
             </Link>
-          </motion.div>
-
-          {/* Quick highlights */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.8 }}
-            className="flex flex-wrap gap-x-8 gap-y-3 pt-4 border-t border-white/10"
-          >
-            {[
-              { label: "Energy Trading", sub: "EN590 · Jet A1 · LPG · LNG" },
-              { label: "Precious Metals", sub: "Gold Dore · Bullion · Refined" },
-              { label: "Regions", sub: "ME · Africa · Asia" },
-            ].map((item) => (
-              <div key={item.label} className="flex flex-col gap-0.5">
-                <span className="font-sans text-[12px] font-semibold text-[#ceae5a] uppercase tracking-wide">{item.label}</span>
-                <span className="font-sans text-[12px] text-white/60">{item.sub}</span>
-              </div>
-            ))}
           </motion.div>
         </motion.div>
       </div>
