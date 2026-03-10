@@ -35,10 +35,9 @@ export const Navbar = () => {
       dropdown: [
         { name: "Energy Trading", path: "/services/petroleum-products" },
         { name: "Precious Metals", path: "/services/gold-trading" },
-        { name: "Logistics", path: "/operations" },
       ],
     },
-    { name: "Operations", path: "/operations" },
+    { name: "Logistics", path: "/operations" },
     { name: "Contact", path: "/contact" },
   ];
 
@@ -111,7 +110,7 @@ export const Navbar = () => {
                     <div className="relative inline-block">
                       <span
                         className={`font-sans font-medium text-[14px] xl:text-[15px] whitespace-nowrap transition-colors ${
-                          (item.name === "About Us" && location.pathname.startsWith("/about")) ||
+      (item.name === "About Us" && location.pathname.startsWith("/about")) ||
                           (item.name === "Business Sectors" && location.pathname.startsWith("/services"))
                             ? "text-white"
                             : "text-white/90 hover:text-[#ceae5a]"

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { ChevronLeft, ChevronRight, Target, Users, Network, Award } from "lucide-react";
+import { Target, Users, Network, Award } from "lucide-react";
 
 const strengths = [
   {
@@ -49,25 +49,6 @@ export const KeyStrengths = () => {
             </h2>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="flex gap-2 shrink-0"
-          >
-            <button
-              className="w-[44px] h-[44px] rounded-[8px] border border-[#CEAE5A]/60 bg-white flex items-center justify-center text-[#151515] hover:bg-[#CEAE5A]/5 hover:border-[#CEAE5A] transition-all"
-              aria-label="Previous"
-            >
-              <ChevronLeft className="size-5" />
-            </button>
-            <button
-              className="w-[44px] h-[44px] rounded-[8px] bg-[#CEAE5A] flex items-center justify-center text-white hover:bg-[#B89B4F] transition-all"
-              aria-label="Next"
-            >
-              <ChevronRight className="size-5" />
-            </button>
-          </motion.div>
         </div>
 
         {/* Cards - 4 cards, smaller, luxury look */}

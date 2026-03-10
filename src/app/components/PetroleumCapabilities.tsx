@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { ChevronLeft, ChevronRight, FileText, Database, Share2, ClipboardCheck } from "lucide-react";
+import { FileText, Database, Share2, ClipboardCheck } from "lucide-react";
 
 const capabilities = [
   {
@@ -50,14 +50,6 @@ export const PetroleumCapabilities = () => {
             </div>
           </div>
           
-          <div className="flex gap-[5px] shrink-0">
-            <button className="w-[54px] h-[54px] rounded-[8px] border border-[#ceae5a] bg-white flex items-center justify-center hover:bg-[#ceae5a] group transition-all">
-              <ChevronLeft className="size-5 text-[#ceae5a] group-hover:text-white" />
-            </button>
-            <button className="w-[54px] h-[54px] rounded-[8px] bg-[#ceae5a] border border-[#ceae5a] flex items-center justify-center hover:bg-[#b89b4f] transition-all">
-              <ChevronRight className="size-5 text-white" />
-            </button>
-          </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 lg:gap-6 w-full">

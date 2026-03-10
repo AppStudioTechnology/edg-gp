@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import imgProject from "@/assets/2d09c5cf3e6a35fbebcfa136dd060771dbf70d57.png";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 const portfolioItems = [
   { label: "Ultra Low Sulphur Diesel (ULSD):", text: "Cleaner-burning diesel fuel, ideal for meeting environmental regulations while ensuring performance." },
@@ -41,14 +41,6 @@ export const PetroleumPortfolio = () => {
             </div>
           </div>
           
-          <div className="flex gap-[5px] shrink-0">
-            <button className="w-[54px] h-[54px] rounded-[8px] border border-[#ceae5a] bg-white flex items-center justify-center hover:bg-[#ceae5a] group transition-all">
-              <ChevronLeft className="size-5 text-[#ceae5a] group-hover:text-white" />
-            </button>
-            <button className="w-[54px] h-[54px] rounded-[8px] bg-[#ceae5a] border border-[#ceae5a] flex items-center justify-center hover:bg-[#b89b4f] transition-all">
-              <ChevronRight className="size-5 text-white" />
-            </button>
-          </div>
         </div>
 
         {/* Content Box */}

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { ArrowUpRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import imgSourcing from "@/assets/fd9aa8f3462b63856bb7bea043c93adb44df92cd.png";
 import imgTransport from "@/assets/c05597be88b219a4f251a50cc00c053e67d7d37e.png";
 import imgPartnerships from "@/assets/8318d5b1a38853acf073e7528fe191db64e753b8.png";
@@ -48,14 +48,6 @@ export const GoldTradingService = () => {
               EDG's precious metals division handles the full spectrum of the gold value chain — from sourcing raw Gold Dore at origin, through to refined investment-grade bullion distribution for institutional and commercial clients worldwide. Every transaction is underpinned by AML compliance, responsible sourcing protocols, and transparent documentation.
             </p>
             
-            <div className="flex gap-2 shrink-0 self-end lg:self-center">
-              <button className="w-[54px] h-[54px] rounded-[8px] border border-[#ceae5a] flex items-center justify-center hover:bg-[#ceae5a] group transition-all">
-                <ChevronLeft className="size-6 text-black group-hover:text-white" />
-              </button>
-              <button className="w-[54px] h-[54px] rounded-[8px] bg-[#ceae5a] flex items-center justify-center hover:bg-[#b89b4f] transition-all">
-                <ChevronRight className="size-6 text-white" />
-              </button>
-            </div>
           </div>
         </div>
 

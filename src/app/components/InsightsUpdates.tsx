@@ -50,12 +50,6 @@ export const InsightsUpdates = () => {
               & Updates
             </h2>
           </div>
-          <Link to="/contact">
-            <button className="flex items-center gap-2 font-sans text-[14px] font-medium text-[#A98C49] hover:text-[#967a3f] transition-colors group">
-              View All Insights
-              <ArrowRight className="size-4 group-hover:translate-x-1 transition-transform" />
-            </button>
-          </Link>
         </motion.div>
 
         {/* Insights cards */}

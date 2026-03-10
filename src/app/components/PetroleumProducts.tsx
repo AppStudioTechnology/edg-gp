@@ -3,6 +3,10 @@ import { motion } from "motion/react";
 import imgFuelOil from "@/assets/b925ee07aeb310be99bcb39a950d6350436d7ef6.png";
 import imgGasoil from "@/assets/7afa48a6d07155eedfa56e133a93a31ec25ae49e.png";
 import imgGasoline from "@/assets/5ec062669d7a5dfcdda047cf836da43350d96139.png";
+import imgRefinery from "@/assets/4320c3d682274c331434f0c4625d9027139acb24.png";
+import imgTanks from "@/assets/ff209826221c5d435606888e985201bc4c5f292c.png";
+import imgTransport from "@/assets/c05597be88b219a4f251a50cc00c053e67d7d37e.png";
+import imgIndustrial1 from "@/assets/b5aaba61d8de2de2626ff2e0f1640ed488524eb2.png";
 import { ArrowUpRight } from "lucide-react";
 
 const products = [
@@ -10,43 +14,43 @@ const products = [
     title: "EN590 Diesel",
     spec: "ASTM D975 / EN590",
     desc: "Ultra-low sulphur diesel (ULSD) conforming to EN590 specifications. Suitable for automotive, commercial fleet, and heavy equipment applications across all major markets.",
-    image: imgGasoil
+    image: imgGasoil,
   },
   {
     title: "Gasoline RON 91 / RON 95",
     spec: "RON 91 & RON 95",
     desc: "High-quality unleaded motor gasoline (MOGAS) available in RON 91 and RON 95 grades. Formulated to meet country-specific regulatory standards and engine performance requirements.",
-    image: imgGasoline
+    image: imgGasoline,
   },
   {
     title: "Jet A1",
     spec: "ASTM D1655 / DEF STAN 91-091",
     desc: "Aviation turbine fuel meeting international Jet A1 specifications. Supplied to airlines, military aviation, and ground support operations with full quality certification and traceability.",
-    image: imgFuelOil
+    image: imgTransport,
   },
   {
     title: "Fuel Oil",
     spec: "CIMAC / ISO 8217",
     desc: "Heavy residual fuel oil for marine bunker, industrial power generation, and large-scale heating applications. Available in multiple viscosity grades with full sulphur compliance documentation.",
-    image: imgFuelOil
+    image: imgFuelOil,
   },
   {
     title: "Bitumen",
     spec: "Grade 60/70 & 80/100",
     desc: "Petroleum-derived bitumen for road construction, infrastructure projects, and waterproofing applications. Supplied directly to government road agencies, construction firms, and industrial operators.",
-    image: imgGasoil
+    image: imgRefinery,
   },
   {
     title: "LPG",
     spec: "Propane / Butane Blend",
     desc: "Liquefied Petroleum Gas for domestic, commercial, and industrial use. Delivered in bulk tanker or cylinder format to distributors, filling stations, and industrial consumers.",
-    image: imgGasoline
+    image: imgTanks,
   },
   {
     title: "LNG",
     spec: "ISO 8217 LNG Grade",
     desc: "Liquefied Natural Gas for power generation, marine propulsion, and industrial applications. EDG facilitates LNG supply agreements across emerging markets in Africa and Asia through established shipping partnerships.",
-    image: imgFuelOil
+    image: imgIndustrial1,
   },
 ];
 
