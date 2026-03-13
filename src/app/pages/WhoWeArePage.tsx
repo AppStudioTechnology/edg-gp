@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { HeroWhoWeAre } from "../components/HeroWhoWeAre";
 import { IntroSection } from "../components/IntroSection";
-import { Stats } from "../components/Stats";
 import { VisionMission } from "../components/VisionMission";
 import { CoreValues } from "../components/CoreValues";
 import { EnergyOpportunity } from "../components/EnergyOpportunity";
@@ -17,7 +16,6 @@ export const WhoWeArePage = () => {
     <div className="flex flex-col w-full">
       <HeroWhoWeAre />
       <IntroSection />
-      <Stats />
       <VisionMission />
       <CoreValues />
       <EnergyOpportunity />

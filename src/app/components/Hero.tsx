@@ -51,21 +51,15 @@ export const Hero = () => {
             EDG Gold & Petroleum is a global trading platform operating across energy and precious metals markets — delivering reliability, compliance, and sustainable value to governments, institutions, and corporations worldwide.
           </p>
 
-          {/* 2 CTAs */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.5 }}
-            className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 pt-2"
+            className="pt-2"
           >
             <Link to="/contact">
               <button className="bg-[#A98C49] hover:bg-[#967a3f] text-white px-6 py-3 rounded-[12px] font-sans font-medium text-[14px] transition-all active:scale-95 whitespace-nowrap">
-                Request Supply Offer
-              </button>
-            </Link>
-            <Link to="/contact">
-              <button className="border border-[#ceae5a]/50 hover:border-[#ceae5a] text-[#ceae5a] px-6 py-3 rounded-[12px] font-sans font-medium text-[14px] transition-all hover:bg-[#ceae5a]/10 active:scale-95 whitespace-nowrap">
-                Become a Strategic Partner
+                Contact Us
               </button>
             </Link>
           </motion.div>

@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { createHashRouter } from "react-router";
 import { Layout } from "./components/Layout";
 import { Hero } from "./components/Hero";
-import { Stats } from "./components/Stats";
 import { IntroSection } from "./components/IntroSection";
 import { VisionMission } from "./components/VisionMission";
 import { ChairmanMessage } from "./components/ChairmanMessage";
@@ -31,9 +30,6 @@ const HomePage = () => {
     <main>
       <div id="home">
         <Hero />
-      </div>
-      <div id="stats">
-        <Stats />
       </div>
       <div id="about-us">
         <IntroSection />
