@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { createHashRouter } from "react-router";
+import { createBrowserRouter } from "react-router";
 import { Layout } from "./components/Layout";
 import { Hero } from "./components/Hero";
 import { IntroSection } from "./components/IntroSection";
@@ -59,7 +59,7 @@ const HomePage = () => {
   );
 };
 
-export const router = createHashRouter([
+export const router = createBrowserRouter([
   {
     path: "/",
     Component: Layout,
